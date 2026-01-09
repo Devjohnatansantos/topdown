@@ -8,5 +8,13 @@ else
 {
 	
 	speed = 0.5;	
-	direction = dir;
+	if (x <= 0 || x >= room_width - sprite_width) {
+    hspeed = -hspeed;
 }
+
+
+if (y <= 0 || y >= room_height - sprite_height) {
+    vspeed = -vspeed;
+}
+}
+
