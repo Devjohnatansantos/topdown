@@ -30,7 +30,7 @@ move_and_collide(velh, velv, obj_parede);
 
 esquiva = function()
 {
-	
+	max_vel = 4;
 	sprite_index = spr_player_esquiva;
 	
 	
@@ -48,6 +48,7 @@ esquiva = function()
 
 normal = function()
 {
+	max_vel = 2.5;
 	
 			if (keyboard_check_pressed(vk_space) && timer_esquiva <= 0)
 {
