@@ -30,6 +30,7 @@
     {"id":{"name":"obj_room","path":"objects/obj_room/obj_room.yy",},},
     {"id":{"name":"obj_vacina","path":"objects/obj_vacina/obj_vacina.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"spr_inimigo_ataca","path":"sprites/spr_inimigo_ataca/spr_inimigo_ataca.yy",},},
     {"id":{"name":"spr_inimigo","path":"sprites/spr_inimigo/spr_inimigo.yy",},},
     {"id":{"name":"spr_parede","path":"sprites/spr_parede/spr_parede.yy",},},
     {"id":{"name":"spr_player_anda","path":"sprites/spr_player_anda/spr_player_anda.yy",},},
