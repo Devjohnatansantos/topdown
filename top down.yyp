@@ -24,11 +24,13 @@
   "name":"top down",
   "resources":[
     {"id":{"name":"obj_cam","path":"objects/obj_cam/obj_cam.yy",},},
+    {"id":{"name":"obj_inimigo_pai","path":"objects/obj_inimigo_pai/obj_inimigo_pai.yy",},},
     {"id":{"name":"obj_parede","path":"objects/obj_parede/obj_parede.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_room","path":"objects/obj_room/obj_room.yy",},},
     {"id":{"name":"obj_vacina","path":"objects/obj_vacina/obj_vacina.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"spr_inimigo","path":"sprites/spr_inimigo/spr_inimigo.yy",},},
     {"id":{"name":"spr_parede","path":"sprites/spr_parede/spr_parede.yy",},},
     {"id":{"name":"spr_player_anda","path":"sprites/spr_player_anda/spr_player_anda.yy",},},
     {"id":{"name":"spr_player_ataque","path":"sprites/spr_player_ataque/spr_player_ataque.yy",},},
