@@ -1,0 +1,1 @@
+tomar_dano = false;

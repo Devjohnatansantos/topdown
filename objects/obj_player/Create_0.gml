@@ -3,6 +3,7 @@ velv = 0;
 max_vel = 2.5;
 timer = 2;
 timer_esquiva = 0;
+vida = 3;
 
 
 movimento =function()
@@ -30,6 +31,7 @@ move_and_collide(velh, velv, obj_parede);
 
 esquiva = function()
 {
+	tomar_dano = false;
 	max_vel = 4;
 	sprite_index = spr_player_esquiva;
 	
@@ -48,12 +50,13 @@ esquiva = function()
 
 normal = function()
 {
+	tomar_dano = true;
 	max_vel = 2.5;
 	
 			if (keyboard_check_pressed(vk_space) && timer_esquiva <= 0)
 {
 	
-		timer_esquiva = 55;
+		timer_esquiva = 45;
 		image_index = 0;
 		estado = esquiva;
 	}	
@@ -109,6 +112,12 @@ vacinas = function()
 	_tiro.image_angle = point_direction(x, y, mouse_x, mouse_y);
 }
 
-
+perde_vida = function()
+{
+	if (tomar_dano == true)
+	{
+	alarm[0] = 10;
+	}
+}
 
 estado = normal;
