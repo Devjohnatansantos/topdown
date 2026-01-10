@@ -1,4 +1,4 @@
 with(other)
 {
-	perde_vida()
+	perde_vida();
 }

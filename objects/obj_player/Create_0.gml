@@ -5,6 +5,9 @@ timer = 2;
 timer_esquiva = 0;
 vida = 3;
 
+knockback_speed = 0;
+knockback_dir = 0;
+
 
 movimento =function()
 {
