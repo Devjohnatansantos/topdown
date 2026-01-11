@@ -7,6 +7,7 @@ vida = 3;
 knockback_speed = 0;
 knockback_dir = 0;
 invencivel = false;
+timer_inv = 0;
 
 
 movimento =function()
@@ -53,7 +54,9 @@ esquiva = function()
 
 normal = function()
 {
+	
 	tomar_dano = true;
+	
 	max_vel = 2.5;
 	
 			if (keyboard_check_pressed(vk_space) && timer_esquiva <= 0)
@@ -117,10 +120,10 @@ vacinas = function()
 
 perde_vida = function()
 {
-	if (tomar_dano == true)
+	if (tomar_dano == true && timer_inv <= 0)
 	{
-	
-	vida -= 1;
+		vida -= 1;
+		timer_inv = 120;
 	}
 }
 

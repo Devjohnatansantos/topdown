@@ -3,6 +3,7 @@ movimento();
 estado();
 timer--;
 timer_esquiva--;
+timer_inv--;
 
 if (knockback_speed > 0) {
     hspeed = lengthdir_x(knockback_speed, knockback_dir);
@@ -11,9 +12,10 @@ if (knockback_speed > 0) {
    
     knockback_speed *= 0.85;
 	
-	if (!invencivel) {
+	if (invencivel == false) {
     invencivel = true;
-    alarm[0] = 80;
+	tomar_dano = false;
+	
 }
 
 }
@@ -23,6 +25,18 @@ if (vida <= 0)
 	instance_destroy();
 }
 
+if (timer_inv > 0) {
+    
+
+    if ((timer_inv div 10) mod 2 == 0) {
+        image_alpha = 0.2; 
+    } else {
+        image_alpha = 1;  
+    }
+
+} else {
+    image_alpha = 1; 
+}
 
 
 
