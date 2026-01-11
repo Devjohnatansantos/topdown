@@ -1,6 +1,10 @@
 velh = 0;
 velv = 0;
 max_vel = 2.5;
+vel = 0;
+move_dir = 0;
+
+
 timer = 2;
 timer_esquiva = 0;
 vida = 3;
@@ -18,8 +22,51 @@ _right = keyboard_check(ord("D")),
 _left = keyboard_check(ord("A"));
 
 
-velh = (_right - _left) * max_vel;
-velv = (_down - _up) * max_vel;
+if (_up xor _down or _left xor _right)
+{
+	move_dir = point_direction(0, 0, (_right-_left), (_down-_up))
+	vel = max_vel;
+}
+else
+{
+	vel = lerp(vel, 0, 1);	
+	
+}
+
+velh = lengthdir_x(vel, move_dir);
+velv = lengthdir_y(vel, move_dir);
+
+var _velh = sign(velh)
+
+repeat(abs(velh))
+{
+	if (place_meeting(x + _velh, y, obj_parede))
+	{
+		velh = 0;
+	}
+	else
+	{
+		x += _velh;
+	}
+	
+}
+
+var _velv = sign(velv)
+
+repeat(abs(velv))
+{
+	if (place_meeting(x, y + _velv, obj_parede))
+	{
+		velv = 0;
+	}
+	else
+	{
+		y += _velv;
+	}
+	
+}
+
+
 
 if (velh > 0) {
     image_xscale = 1;  
@@ -29,7 +76,7 @@ else if (velh < 0) {
 }
 
 
-move_and_collide(velh, velv, obj_parede);
+
 
 }
 

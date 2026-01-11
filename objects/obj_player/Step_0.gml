@@ -6,6 +6,12 @@ timer_esquiva--;
 timer_inv--;
 
 if (knockback_speed > 0) {
+	
+	if(place_meeting(x, y, obj_parede))
+	{
+	knockback_speed = 0;
+	}
+	
     hspeed = lengthdir_x(knockback_speed, knockback_dir);
     vspeed = lengthdir_y(knockback_speed, knockback_dir);
     
@@ -17,8 +23,9 @@ if (knockback_speed > 0) {
 	tomar_dano = false;
 	
 }
-
 }
+
+
 
 if (vida <= 0)
 {
