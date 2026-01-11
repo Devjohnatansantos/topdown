@@ -29,3 +29,10 @@ if (y <= 0 || y >= room_height - sprite_height) {
 }
 }
 
+if (knockback_speed > 0) {
+    hspeed = lengthdir_x(knockback_speed, knockback_dir);
+    vspeed = lengthdir_y(knockback_speed, knockback_dir);
+	
+	knockback_speed *= 0.85;
+}
+

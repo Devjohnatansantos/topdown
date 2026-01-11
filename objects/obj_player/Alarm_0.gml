@@ -1,3 +1,3 @@
-vida -= 1
 
-alarm[1] = 180
+invencivel = false;
+tomar_dano = true;

@@ -4,9 +4,9 @@ max_vel = 2.5;
 timer = 2;
 timer_esquiva = 0;
 vida = 3;
-
 knockback_speed = 0;
 knockback_dir = 0;
+invencivel = false;
 
 
 movimento =function()
@@ -119,7 +119,8 @@ perde_vida = function()
 {
 	if (tomar_dano == true)
 	{
-	alarm[0] = 10;
+	
+	vida -= 1;
 	}
 }
 

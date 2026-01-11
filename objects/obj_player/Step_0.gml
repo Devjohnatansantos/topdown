@@ -10,6 +10,12 @@ if (knockback_speed > 0) {
     
    
     knockback_speed *= 0.85;
+	
+	if (!invencivel) {
+    invencivel = true;
+    alarm[0] = 80;
+}
+
 }
 
 if (vida <= 0)
