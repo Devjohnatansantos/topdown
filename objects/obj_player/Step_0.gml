@@ -5,12 +5,9 @@ timer--;
 timer_esquiva--;
 timer_inv--;
 
-if (knockback_speed > 0) {
+if (knockback_speed > 0 && distance_to_object(obj_parede) > distance) {
 	
-	if(place_meeting(x, y, obj_parede))
-	{
-	knockback_speed = 0;
-	}
+	
 	
     hspeed = lengthdir_x(knockback_speed, knockback_dir);
     vspeed = lengthdir_y(knockback_speed, knockback_dir);
@@ -21,6 +18,7 @@ if (knockback_speed > 0) {
 	if (invencivel == false) {
     invencivel = true;
 	tomar_dano = false;
+	
 	
 }
 }

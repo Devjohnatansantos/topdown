@@ -13,6 +13,7 @@ knockback_dir = 0;
 invencivel = false;
 timer_inv = 0;
 
+distance = 50;
 
 movimento =function()
 {
@@ -35,6 +36,8 @@ else
 
 velh = lengthdir_x(vel, move_dir);
 velv = lengthdir_y(vel, move_dir);
+
+
 
 var _velh = sign(velh)
 
@@ -75,7 +78,7 @@ else if (velh < 0) {
     image_xscale = -1;  
 }
 
-
+move_and_collide(_velh, _velv, obj_parede);
 
 
 }
@@ -167,7 +170,7 @@ vacinas = function()
 
 perde_vida = function()
 {
-	if (tomar_dano == true && timer_inv <= 0)
+	if (tomar_dano == true && timer_inv <= 0 && !place_meeting(x, y, obj_parede))
 	{
 		vida -= 1;
 		timer_inv = 120;
