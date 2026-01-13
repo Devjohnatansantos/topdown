@@ -1,3 +1,4 @@
+
 with(other)
 {
 	perde_vida();
@@ -5,6 +6,6 @@ with(other)
 
 if (distance_to_object(obj_parede) > 30)
 {
-knockback_speed = 4;
+knockback_speed = 2;
 knockback_dir = point_direction(other.x, other.y, x, y);
 }
