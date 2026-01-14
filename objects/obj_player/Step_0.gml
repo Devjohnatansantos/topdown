@@ -5,7 +5,7 @@ timer--;
 timer_esquiva--;
 timer_inv--;
 
-if (knockback_speed > 0 && distance_to_object(obj_parede) > distance) {
+if (knockback_speed > 0 && distance_to_object(obj_parede) > distance && tomar_dano == true) {
 	
 	
 	
