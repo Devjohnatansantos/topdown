@@ -1,3 +1,5 @@
+#region movimentação
+
 velh = 0;
 velv = 0;
 max_vel = 1.5;
@@ -102,3 +104,22 @@ normal = function()
 
 
 estado = normal;
+
+#endregion movimentação
+
+#region diálogos
+
+if(distance_to_object(obj_par_npcs) <= 10)
+{
+	if(keyboard_check_pressed(vk_space))
+	{
+		var _npc = instance_nearest(x, y, obj_par_npcs)
+		var _dialogo = instance_create_layer(x, y, "dialogo", obj_dialogos);
+		_dialogo.npc_nome = _npc.npc_nome;
+		
+	}
+	
+}
+
+
+#endregion diálogos
