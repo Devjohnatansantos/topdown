@@ -1,6 +1,6 @@
 velh = 0;
 velv = 0;
-max_vel = 2.5;
+max_vel = 1.5;
 vel = 0;
 move_dir = 0;
 
