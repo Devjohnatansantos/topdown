@@ -12,10 +12,9 @@ if (keyboard_check_pressed(vk_space))
 	{
 		pagina+= 1;
 	}
-	else 
+	if (pagina > array_length(texto) - 1)
 	{
 		pagina = 0;
-		instance_destroy();	
+		instance_destroy();
 	}
-	
 }
