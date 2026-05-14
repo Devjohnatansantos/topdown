@@ -1,10 +1,10 @@
 
 movimento();
 estado();
-
+timer--;
 #region diálogos
 
-if(distance_to_object(obj_par_npcs) <= 10)
+if(distance_to_object(obj_par_npcs) <= 10 and global.dialogo == false and timer <= 0)
 {
 	if(keyboard_check_pressed(vk_space))
 	{

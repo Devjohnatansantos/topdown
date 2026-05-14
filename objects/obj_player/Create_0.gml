@@ -106,4 +106,4 @@ normal = function()
 estado = normal;
 
 #endregion movimentação
-
+timer = 0;

@@ -10,11 +10,15 @@ if (keyboard_check_pressed(vk_space))
 {
 	if (pagina < array_length(texto) - 1)
 	{
-		pagina+= 1;
+		pagina++;
 	}
-	if (pagina > array_length(texto) - 1)
+	else
 	{
-		pagina = 0;
+		global.dialogo = false;
+		obj_player.timer = 60;
 		instance_destroy();
+		
 	}
 }
+
+show_debug_message(pagina)
