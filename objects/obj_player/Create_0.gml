@@ -2,7 +2,7 @@
 
 velh = 0;
 velv = 0;
-max_vel = 1.5;
+max_vel = 0.2;
 vel = 0;
 move_dir = 0;
 
@@ -85,7 +85,7 @@ move_and_collide(_velh, _velv, obj_parede);
 normal = function()
 {
 
-	max_vel = 2.5;
+	max_vel = 1;
 	
 	
 	

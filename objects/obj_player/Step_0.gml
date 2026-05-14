@@ -1,7 +1,10 @@
-
+if (global.dialogo == false)
+{
 movimento();
 estado();
+}
 timer--;
+
 #region diálogos
 
 if(distance_to_object(obj_par_npcs) <= 10 and global.dialogo == false and timer <= 0)
