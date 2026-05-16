@@ -15,6 +15,7 @@ var _c = c_black;
 draw_set_font(fnt_dialogo)
 
 draw_rectangle_color(_xx, _yy, _guil, _guia, _c, _c, _c, _c, false)
+draw_text(_xx + 32, _yy + 10, npc_nome)
 draw_text_ext(_xx + 32, _yy + 32, texto[pagina], 32, _guil - 64);
 }
 
