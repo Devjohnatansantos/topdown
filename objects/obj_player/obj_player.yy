@@ -33,12 +33,12 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_player",
-    "path":"sprites/spr_player/spr_player.yy",
-  },
-  "spriteMaskId":{
     "name":"spr_player1",
     "path":"sprites/spr_player1/spr_player1.yy",
+  },
+  "spriteMaskId":{
+    "name":"spr_player_anda1",
+    "path":"sprites/spr_player_anda1/spr_player_anda1.yy",
   },
   "visible":true,
 }

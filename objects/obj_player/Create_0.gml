@@ -92,12 +92,12 @@ normal = function()
 		if (velh > 0 or velh < 0 or velv > 0 or velv < 0)
 	{
 	
-		sprite_index = spr_player_anda;
+		sprite_index = spr_player_anda1;
 		
 	}
 	else
 	{
-		sprite_index = spr_player;
+		sprite_index = spr_player1;
 	}
 	
 }
