@@ -68,6 +68,7 @@
     {"name":"inst_2FF7468C","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_21B97F25","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_330520C8","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_2949B090","path":"rooms/Room1/Room1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -137,6 +138,7 @@
         {"$GMRInstance":"v4","%Name":"inst_755B18DB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_755B18DB","objectId":{"name":"obj_parede","path":"objects/obj_parede/obj_parede.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.4,"scaleY":1.0,"x":417.0,"y":386.0,},
         {"$GMRInstance":"v4","%Name":"inst_2FF7468C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2FF7468C","objectId":{"name":"obj_parede","path":"objects/obj_parede/obj_parede.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.3,"scaleY":1.0,"x":400.0,"y":441.0,},
         {"$GMRInstance":"v4","%Name":"inst_330520C8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_330520C8","objectId":{"name":"obj_room","path":"objects/obj_room/obj_room.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.1,"scaleY":0.7,"x":353.0,"y":116.0,},
+        {"$GMRInstance":"v4","%Name":"inst_2949B090","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2949B090","objectId":{"name":"obj_parede","path":"objects/obj_parede/obj_parede.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":17.65,"scaleY":0.85,"x":528.5,"y":143.5,},
       ],"layers":[],"name":"paredes","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":false,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_525B3072","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_525B3072","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":null,"x":1232.0,"y":256.0,},
