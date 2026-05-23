@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"obj_npc2",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_npc2",
   "overriddenProperties":[],
@@ -9,7 +11,10 @@
     "name":"objetos",
     "path":"folders/objetos.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_par_npcs",
+    "path":"objects/obj_par_npcs/obj_par_npcs.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

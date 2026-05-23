@@ -8,5 +8,13 @@ function scr_textos(){
 		
 		break;
 		
+		case "Richarlison":
+		
+		texto[0] = "Que é???"
+		texto[1] = "Nada?"
+		texto[2] = "Então vaza!"
+		
+		break;
+		
 	}
 }
