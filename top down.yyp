@@ -42,6 +42,7 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"script_textos","path":"scripts/script_textos/script_textos.yy",},},
     {"id":{"name":"spr_cozinheiro_costas","path":"sprites/spr_cozinheiro_costas/spr_cozinheiro_costas.yy",},},
+    {"id":{"name":"spr_fogao","path":"sprites/spr_fogao/spr_fogao.yy",},},
     {"id":{"name":"spr_npc","path":"sprites/spr_npc/spr_npc.yy",},},
     {"id":{"name":"spr_npc2","path":"sprites/spr_npc2/spr_npc2.yy",},},
     {"id":{"name":"spr_parede","path":"sprites/spr_parede/spr_parede.yy",},},
