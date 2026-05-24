@@ -12,15 +12,15 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"19d774dd-3d31-4243-88c0-0fba235b15e0","name":"19d774dd-3d31-4243-88c0-0fba235b15e0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"1e0c9143-8d8f-4997-a4be-caefb357e6cc","name":"1e0c9143-8d8f-4997-a4be-caefb357e6cc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"50d4f9c8-40cd-49a2-af14-962279b70a3d","name":"50d4f9c8-40cd-49a2-af14-962279b70a3d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f28d8837-0103-4b73-95dc-2c49e988f8d6","name":"f28d8837-0103-4b73-95dc-2c49e988f8d6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":22,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"1501e12e-38ae-4874-aa87-3cba0faae502","blendMode":0,"displayName":"default","isLocked":false,"name":"1501e12e-38ae-4874-aa87-3cba0faae502","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"26758c82-9012-4fcd-bc90-c0f26c86a976","blendMode":0,"displayName":"default","isLocked":false,"name":"26758c82-9012-4fcd-bc90-c0f26c86a976","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_cozinheiro_costas",
   "nineSlice":null,
@@ -70,11 +70,11 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"19d774dd-3d31-4243-88c0-0fba235b15e0","path":"sprites/spr_cozinheiro_costas/spr_cozinheiro_costas.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"cf2db1e2-b77d-4840-ae44-47d6b11a3e9c","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"50d4f9c8-40cd-49a2-af14-962279b70a3d","path":"sprites/spr_cozinheiro_costas/spr_cozinheiro_costas.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"298284ac-3168-4057-b989-eba98629b38f","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1e0c9143-8d8f-4997-a4be-caefb357e6cc","path":"sprites/spr_cozinheiro_costas/spr_cozinheiro_costas.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"4c331b09-3fd4-4af6-9b81-a71a51df53d8","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f28d8837-0103-4b73-95dc-2c49e988f8d6","path":"sprites/spr_cozinheiro_costas/spr_cozinheiro_costas.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"8cc87823-180a-468a-8245-339bf7bc19fd","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
