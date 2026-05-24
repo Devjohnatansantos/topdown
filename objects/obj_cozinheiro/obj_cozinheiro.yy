@@ -1,17 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"obj_par_npcs",
+  "%Name":"obj_cozinheiro",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_par_npcs",
+  "name":"obj_cozinheiro",
   "overriddenProperties":[],
   "parent":{
     "name":"objetos",
     "path":"folders/objetos.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_par_npcs",
+    "path":"objects/obj_par_npcs/obj_par_npcs.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -29,7 +32,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_cozinheiro_costas",
+    "path":"sprites/spr_cozinheiro_costas/spr_cozinheiro_costas.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

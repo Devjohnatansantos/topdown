@@ -5,6 +5,8 @@ estado();
 }
 timer--;
 
+depth = -bbox_bottom;
+
 #region diálogos
 
 if(distance_to_object(obj_par_npcs) <= 10 and global.dialogo == false and timer <= 0)
