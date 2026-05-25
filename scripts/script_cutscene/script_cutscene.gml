@@ -1,3 +1,20 @@
+function _end()
+{
+
+		action++
+	
+		if ( action >= array_length(cutscene))
+		{
+			
+			instance_destroy();
+			
+		}
+
+	
+	
+	
+}
+
 function cutscene_wait(_segundos){
 
 timerc++;
@@ -5,7 +22,9 @@ timerc++;
 if(timerc >= room_speed * _segundos)
 {
 	timerc = 0;
-	action++;
+	_end();
+
+	
 	
 }
 
@@ -19,7 +38,9 @@ obj_player.y-= _spd;
 if(timerc >= room_speed * _segundos)
 {
 	timerc = 0;
-	action++;
+	_end()
+
+	
 	
 }
 
@@ -34,7 +55,10 @@ obj_player.x-=_spd;
 if(timerc >= room_speed * _segundos)
 {
 	timerc = 0;
-	action++;
+	_end()
+
+	
+	
 	
 }
 
