@@ -34,6 +34,7 @@
     {"id":{"name":"obj_cozinheiro","path":"objects/obj_cozinheiro/obj_cozinheiro.yy",},},
     {"id":{"name":"obj_cutscene","path":"objects/obj_cutscene/obj_cutscene.yy",},},
     {"id":{"name":"obj_dialogos","path":"objects/obj_dialogos/obj_dialogos.yy",},},
+    {"id":{"name":"obj_dialogos1","path":"objects/obj_dialogos1/obj_dialogos1.yy",},},
     {"id":{"name":"obj_npc1","path":"objects/obj_npc1/obj_npc1.yy",},},
     {"id":{"name":"obj_npc2","path":"objects/obj_npc2/obj_npc2.yy",},},
     {"id":{"name":"obj_par_npcs","path":"objects/obj_par_npcs/obj_par_npcs.yy",},},
