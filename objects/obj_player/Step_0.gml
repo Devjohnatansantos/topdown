@@ -1,4 +1,4 @@
-if (global.dialogo == false)
+if (global.dialogo == false && !instance_exists(obj_cutscene))
 {
 movimento();
 estado();

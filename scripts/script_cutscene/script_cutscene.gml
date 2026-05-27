@@ -22,7 +22,6 @@ timerc++;
 if(timerc >= room_speed * _segundos)
 {
 	timerc = 0;
-	obj_player.vel = 0;
 	_end();
 
 	
@@ -57,6 +56,20 @@ timerc++;
 if(timerc >= room_speed * _segundos and global.dialogo == false)
 {
 	timerc = 0;
+	_end();
+
+	
+}
+}
+
+function cutscene_fade(_segundos){
+
+timerc++;
+
+if(timerc >= room_speed * _segundos and global.dialogo == false)
+{
+	timerc = 0;
+	instance_create_layer(0, 0, "dialogo", obj_fade)
 	_end();
 
 	
