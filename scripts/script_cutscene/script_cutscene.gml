@@ -22,6 +22,7 @@ timerc++;
 if(timerc >= room_speed * _segundos)
 {
 	timerc = 0;
+	obj_player.vel = 0;
 	_end();
 
 	
@@ -30,40 +31,9 @@ if(timerc >= room_speed * _segundos)
 
 }
 
-function cutscene_up(_segundos, _spd){
-
-timerc++;
-obj_player.y-= _spd;
-
-if(timerc >= room_speed * _segundos)
-{
-	timerc = 0;
-	_end()
-
-	
-	
-}
 
 
-}
 
-function cutscene_left(_segundos, _spd){
-
-timerc++;
-obj_player.x-=_spd;
-
-if(timerc >= room_speed * _segundos)
-{
-	timerc = 0;
-	_end()
-
-	
-	
-	
-}
-
-
-}
 
 function cutscene_dialogo(_segundos){
 
@@ -73,7 +43,7 @@ if(timerc >= room_speed * _segundos)
 {
 	timerc = 0;
 	var _dialogo = instance_create_layer(x, y, "dialogo", obj_dialogos1);
-	_dialogo.npc_nome = "Richarlison";
+	_dialogo.npc_nome = "Professor";
 	_end();
 
 	

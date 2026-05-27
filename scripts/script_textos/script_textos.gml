@@ -16,5 +16,13 @@ function scr_textos(){
 		
 		break;
 		
+		case "Professor":
+		
+		texto[0] = "A sua nota foi muito ruim!"
+		texto[1] = "Você deveria ajuda-lo a melhorar essa nota!"
+		texto[2] = "Espero não ver um número menor que esse na próxima reunião."
+		
+		break;
+		
 	}
 }

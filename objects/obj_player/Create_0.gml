@@ -103,6 +103,7 @@ normal = function()
 }
 
 
+
 estado = normal;
 
 #endregion movimentação
