@@ -75,3 +75,19 @@ if(timerc >= room_speed * _segundos and global.dialogo == false)
 	
 }
 }
+
+
+function cutscene_andar(_segundos){
+
+timerc++;
+
+if(timerc >= room_speed * _segundos and global.dialogo == true)
+{
+	timerc = 0;
+	_end();
+
+	
+}
+}
+
+

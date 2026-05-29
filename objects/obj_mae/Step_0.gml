@@ -5,7 +5,7 @@ var alvo = obj_player;
 
 var dist = point_distance(x, y, alvo.x, alvo.y);
 
-var parado_dist = 40;
+var parado_dist = 15;
 var spd = 2;
 
 if (dist > parado_dist)
