@@ -12,9 +12,10 @@ if (dist > parado_dist)
 {
     var dir = point_direction(x, y, alvo.x, alvo.y);
 
+	andando = true
     hspeed = lengthdir_x(spd, dir);
     vspeed = lengthdir_y(spd, dir);
-	andando = true
+	
 }
 else
 {
@@ -34,5 +35,14 @@ else
 	sprite_index = spr_mae_walk;
 }
 
-
+if (hspeed > 0)
+{
+	image_xscale = 1;
+	
+}
+else if(hspeed < 0)
+{
+	image_xscale = -1
+	
+}
 
