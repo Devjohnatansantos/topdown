@@ -1,1 +1,1 @@
-npc_nome = "npc1"
+npc_nome = "Professor"
