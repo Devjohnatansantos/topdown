@@ -52,6 +52,7 @@
     {"id":{"name":"script_textos","path":"scripts/script_textos/script_textos.yy",},},
     {"id":{"name":"spr_cozinheiro_costas","path":"sprites/spr_cozinheiro_costas/spr_cozinheiro_costas.yy",},},
     {"id":{"name":"spr_fogao","path":"sprites/spr_fogao/spr_fogao.yy",},},
+    {"id":{"name":"spr_mae_walk","path":"sprites/spr_mae_walk/spr_mae_walk.yy",},},
     {"id":{"name":"spr_mae","path":"sprites/spr_mae/spr_mae.yy",},},
     {"id":{"name":"spr_npc","path":"sprites/spr_npc/spr_npc.yy",},},
     {"id":{"name":"spr_npc2","path":"sprites/spr_npc2/spr_npc2.yy",},},

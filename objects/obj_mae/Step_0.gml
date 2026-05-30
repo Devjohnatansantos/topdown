@@ -5,8 +5,8 @@ var alvo = obj_player;
 
 var dist = point_distance(x, y, alvo.x, alvo.y);
 
-var parado_dist = 15;
-var spd = 2;
+var parado_dist = 20;
+var spd = 1;
 
 if (dist > parado_dist)
 {
@@ -14,9 +14,25 @@ if (dist > parado_dist)
 
     hspeed = lengthdir_x(spd, dir);
     vspeed = lengthdir_y(spd, dir);
+	andando = true
 }
 else
 {
-    hspeed = 0;
-    vspeed = 0;
+	andando = false;
+    hspeed = lerp(hspeed, 0, 1);
+    vspeed = lerp(vspeed, 0, 1);
+
 }
+
+if (speed == 0 && andando == false)
+{
+	sprite_index = spr_mae;
+	
+}
+else
+{
+	sprite_index = spr_mae_walk;
+}
+
+
+

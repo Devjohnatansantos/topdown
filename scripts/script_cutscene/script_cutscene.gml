@@ -81,6 +81,9 @@ function cutscene_andar(_segundos){
 
 timerc++;
 
+if (global.dialogo == true)
+{
+
 if(timerc >= room_speed * _segundos and global.cutscene == false)
 {
 	timerc = 0;
@@ -88,6 +91,7 @@ if(timerc >= room_speed * _segundos and global.cutscene == false)
 	_end();
 
 	
+}
 }
 }
 
