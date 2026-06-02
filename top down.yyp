@@ -29,6 +29,7 @@
   "name":"top down",
   "resources":[
     {"id":{"name":"fnt_dialogo","path":"fonts/fnt_dialogo/fnt_dialogo.yy",},},
+    {"id":{"name":"obj_10falso","path":"objects/obj_10falso/obj_10falso.yy",},},
     {"id":{"name":"obj_cam","path":"objects/obj_cam/obj_cam.yy",},},
     {"id":{"name":"obj_controle","path":"objects/obj_controle/obj_controle.yy",},},
     {"id":{"name":"obj_cozinheiro","path":"objects/obj_cozinheiro/obj_cozinheiro.yy",},},
@@ -52,7 +53,6 @@
     {"id":{"name":"script_cutscene","path":"scripts/script_cutscene/script_cutscene.yy",},},
     {"id":{"name":"script_textos","path":"scripts/script_textos/script_textos.yy",},},
     {"id":{"name":"spr_10_1","path":"sprites/spr_10_1/spr_10_1.yy",},},
-    {"id":{"name":"spr_10_2","path":"sprites/spr_10_2/spr_10_2.yy",},},
     {"id":{"name":"spr_cozinheiro_costas","path":"sprites/spr_cozinheiro_costas/spr_cozinheiro_costas.yy",},},
     {"id":{"name":"spr_fogao","path":"sprites/spr_fogao/spr_fogao.yy",},},
     {"id":{"name":"spr_mae_walk","path":"sprites/spr_mae_walk/spr_mae_walk.yy",},},
