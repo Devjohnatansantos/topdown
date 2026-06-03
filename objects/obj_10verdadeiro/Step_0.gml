@@ -1,16 +1,10 @@
-if (image_index > 2)
-{
-	exit;	
-}
-else
-{
-	var _distance = 15;
+
+	var _distance = 10;
 	if (distance_to_object(obj_player) <= _distance)
 	{
 		randomize()
-		var _image = irandom_range(3, 5)
+		var _image = 1
 		image_index = _image;
 		
 	}
 	
-}
