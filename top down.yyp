@@ -35,6 +35,7 @@
     {"id":{"name":"obj_controle","path":"objects/obj_controle/obj_controle.yy",},},
     {"id":{"name":"obj_cozinheiro","path":"objects/obj_cozinheiro/obj_cozinheiro.yy",},},
     {"id":{"name":"obj_cutscene","path":"objects/obj_cutscene/obj_cutscene.yy",},},
+    {"id":{"name":"obj_cutscene2","path":"objects/obj_cutscene2/obj_cutscene2.yy",},},
     {"id":{"name":"obj_dialogos","path":"objects/obj_dialogos/obj_dialogos.yy",},},
     {"id":{"name":"obj_dialogos1","path":"objects/obj_dialogos1/obj_dialogos1.yy",},},
     {"id":{"name":"obj_fade","path":"objects/obj_fade/obj_fade.yy",},},
@@ -81,8 +82,8 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"Room_puzzle1","path":"rooms/Room_puzzle1/Room_puzzle1.yy",},},
-    {"roomId":{"name":"Room_cutscene1","path":"rooms/Room_cutscene1/Room_cutscene1.yy",},},
     {"roomId":{"name":"Room_casa","path":"rooms/Room_casa/Room_casa.yy",},},
+    {"roomId":{"name":"Room_cutscene1","path":"rooms/Room_cutscene1/Room_cutscene1.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "templateType":"game",

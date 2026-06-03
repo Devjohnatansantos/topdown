@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_10verdadeiro",
+  "%Name":"obj_cutscene2",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_10verdadeiro",
+  "name":"obj_cutscene2",
   "overriddenProperties":[],
   "parent":{
     "name":"objetos",
@@ -30,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_10_2",
-    "path":"sprites/spr_10_2/spr_10_2.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
