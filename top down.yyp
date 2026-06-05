@@ -40,6 +40,7 @@
     {"id":{"name":"obj_dialogos1","path":"objects/obj_dialogos1/obj_dialogos1.yy",},},
     {"id":{"name":"obj_fade","path":"objects/obj_fade/obj_fade.yy",},},
     {"id":{"name":"obj_fade2","path":"objects/obj_fade2/obj_fade2.yy",},},
+    {"id":{"name":"obj_mae_npc","path":"objects/obj_mae_npc/obj_mae_npc.yy",},},
     {"id":{"name":"obj_mae","path":"objects/obj_mae/obj_mae.yy",},},
     {"id":{"name":"obj_npc1","path":"objects/obj_npc1/obj_npc1.yy",},},
     {"id":{"name":"obj_npc2","path":"objects/obj_npc2/obj_npc2.yy",},},

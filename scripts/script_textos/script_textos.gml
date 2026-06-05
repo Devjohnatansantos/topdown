@@ -38,9 +38,9 @@ function scr_textos(){
 		
 			case "Pai do Lucky":
 		
-		texto[0] = "Texto 1"
-		texto[1] = "Texto 2"
-		texto[2] = "Texto 3"
+		texto[0] = "Decepcionado que sua nota foi tão baixa mesmo com todos facilitadores que a escola dá pra esses alunos hoje em dia!"
+		texto[1] = "Na minha época não havia provas com consultas, uso da calculadora na aula, professores prestativos e várias outras coisas."
+		texto[2] = "Você deveria ser melhor igual ao seu primo!"
 		global.cutscene = false;
 		global.dialogo = false;
 		
