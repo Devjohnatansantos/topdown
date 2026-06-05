@@ -3,6 +3,7 @@ action = 0;
 timerc = 0;
 
 cutscene = [
-	[cutscene_fade, 1]
+	[cutscene_dialogo, 1],
+	[cutscene_dialogo_wait, 1]
 
 ]
