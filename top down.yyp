@@ -84,8 +84,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room_cutscene1","path":"rooms/Room_cutscene1/Room_cutscene1.yy",},},
     {"roomId":{"name":"Room_casa","path":"rooms/Room_casa/Room_casa.yy",},},
+    {"roomId":{"name":"Room_cutscene1","path":"rooms/Room_cutscene1/Room_cutscene1.yy",},},
     {"roomId":{"name":"Room_puzzle1","path":"rooms/Room_puzzle1/Room_puzzle1.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
