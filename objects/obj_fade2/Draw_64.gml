@@ -8,3 +8,4 @@ draw_set_alpha(fade_alpha);
 draw_rectangle(0, 0, _guil, _guia, false);
 
 draw_set_alpha(1);
+draw_set_color(-1);
