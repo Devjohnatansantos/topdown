@@ -96,6 +96,19 @@ if(timerc >= room_speed * _segundos and global.cutscene == false)
 }
 }
 
+function cutscene_dialogo2(_segundos){
 
+timerc++;
+
+if(timerc >= room_speed * _segundos)
+{
+	timerc = 0;
+	var _dialogo = instance_create_layer(x, y, "dialogo", obj_dialogos1);
+	_dialogo.npc_nome = "Pai do Lucky";
+	_end();
+
+	
+}
+}
 
 

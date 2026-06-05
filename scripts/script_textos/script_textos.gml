@@ -36,6 +36,15 @@ function scr_textos(){
 		
 		break;
 		
+			case "Pai do Lucky":
+		
+		texto[0] = "Texto 1"
+		texto[1] = "Texto 2"
+		texto[2] = "Texto 3"
+		global.cutscene = false;
+		global.dialogo = false;
+		
+		break;
 		
 		
 	}
