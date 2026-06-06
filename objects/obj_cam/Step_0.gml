@@ -1,11 +1,3 @@
-if (!instance_exists(obj_player))
-{
-	exit;
-	
-}
-else
-{
-
 var _room = instance_position(global.cam_alvo.x, global.cam_alvo.y, obj_room);
 
 
@@ -45,4 +37,3 @@ cam_y_max_lerp = lerp(cam_y_max_lerp, global.cam_y_max, .1);
 
 
 camera_set_view_pos(view_camera[0], global.cam_x, global.cam_y);
-}

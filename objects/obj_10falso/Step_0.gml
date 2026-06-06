@@ -1,4 +1,4 @@
-if (image_index > 2 || !instance_exists(obj_player))
+if (image_index > 2)
 {
 	exit;	
 }
