@@ -11,12 +11,12 @@
     {"name":"inst_6FC8C59C1","path":"rooms/Room_casa/Room_casa.yy",},
     {"name":"inst_3A4ACFF2","path":"rooms/Room_casa/Room_casa.yy",},
     {"name":"inst_1640085C","path":"rooms/Room_casa/Room_casa.yy",},
-    {"name":"inst_1163774D","path":"rooms/Room_casa/Room_casa.yy",},
     {"name":"inst_70745F2","path":"rooms/Room_casa/Room_casa.yy",},
     {"name":"inst_7E574EFE","path":"rooms/Room_casa/Room_casa.yy",},
     {"name":"inst_476336C2","path":"rooms/Room_casa/Room_casa.yy",},
     {"name":"inst_7A6B7AF0","path":"rooms/Room_casa/Room_casa.yy",},
     {"name":"inst_2782895B","path":"rooms/Room_casa/Room_casa.yy",},
+    {"name":"inst_215AF110","path":"rooms/Room_casa/Room_casa.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -33,8 +33,8 @@
     {"$GMRInstanceLayer":"","%Name":"paredes","depth":200,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_3A4ACFF2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3A4ACFF2","objectId":{"name":"obj_parede","path":"objects/obj_parede/obj_parede.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":8.150001,"x":0.0,"y":80.5,},
         {"$GMRInstance":"v4","%Name":"inst_1640085C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1640085C","objectId":{"name":"obj_parede","path":"objects/obj_parede/obj_parede.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":16.55,"scaleY":1.0,"x":155.5,"y":0.0,},
-        {"$GMRInstance":"v4","%Name":"inst_1163774D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1163774D","objectId":{"name":"obj_parede","path":"objects/obj_parede/obj_parede.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":8.55,"x":320.0,"y":75.5,},
         {"$GMRInstance":"v4","%Name":"inst_7E574EFE","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7E574EFE","objectId":{"name":"obj_room","path":"objects/obj_room/obj_room.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
+        {"$GMRInstance":"v4","%Name":"inst_215AF110","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_215AF110","objectId":{"name":"obj_parede","path":"objects/obj_parede/obj_parede.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":16.5,"scaleY":0.65000004,"x":157.0,"y":150.5,},
       ],"layers":[],"name":"paredes","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":false,},
     {"$GMRTileLayer":"","%Name":"Tiles_3","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_3","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":48,"SerialiseWidth":86,"TileCompressedData":[
           20,256,257,258,259,260,257,258,257,258,257,258,257,258,257,258,257,258,257,257,258,-66,-2147483648,20,
