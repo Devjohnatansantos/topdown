@@ -91,13 +91,26 @@ normal = function()
 	
 		if (velh > 0 or velh < 0 or velv > 0 or velv < 0)
 	{
-	
-		sprite_index = spr_player_anda1;
+		if (global.mente == true)
+		{
+			sprite_index = spr_player_anda1_mente;
+		}
+		else
+		{
+			sprite_index = spr_player_anda1;
+		}
 		
 	}
 	else
 	{
-		sprite_index = spr_player1;
+		if (global.mente == true)
+		{
+			sprite_index = spr_player1_mente;
+		}
+		else
+		{
+			sprite_index = spr_player1
+		}
 	}
 	
 }
