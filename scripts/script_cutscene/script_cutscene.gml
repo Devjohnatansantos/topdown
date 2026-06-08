@@ -118,7 +118,7 @@ timerc++;
 if(timerc >= room_speed * _segundos)
 {
 	timerc = 0;
-	var _dialogo = instance_create_layer(x, y, "dialogo", obj_dialogos2);
+	var _dialogo = instance_create_layer(x, y, "dialogo", obj_dialogos1);
 	_dialogo.npc_nome = "...";
 	_end();
 
