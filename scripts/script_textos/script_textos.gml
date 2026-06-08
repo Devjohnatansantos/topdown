@@ -46,6 +46,12 @@ function scr_textos(){
 		global.dialogo = false;
 		
 		break;
+			
+				case "...":
+				texto[0] = "1 Dia depois"
+				texto[1] = "Durante a aula na escola"
+				
+				break;
 		
 		
 	}
