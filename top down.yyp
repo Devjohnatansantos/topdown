@@ -38,6 +38,7 @@
     {"id":{"name":"obj_cutscene2","path":"objects/obj_cutscene2/obj_cutscene2.yy",},},
     {"id":{"name":"obj_dialogos","path":"objects/obj_dialogos/obj_dialogos.yy",},},
     {"id":{"name":"obj_dialogos1","path":"objects/obj_dialogos1/obj_dialogos1.yy",},},
+    {"id":{"name":"obj_dialogos2","path":"objects/obj_dialogos2/obj_dialogos2.yy",},},
     {"id":{"name":"obj_fade","path":"objects/obj_fade/obj_fade.yy",},},
     {"id":{"name":"obj_fade2","path":"objects/obj_fade2/obj_fade2.yy",},},
     {"id":{"name":"obj_mae_npc","path":"objects/obj_mae_npc/obj_mae_npc.yy",},},

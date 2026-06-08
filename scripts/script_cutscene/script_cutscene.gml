@@ -111,4 +111,18 @@ if(timerc >= room_speed * _segundos)
 }
 }
 
+function cutscene_dialogo3(_segundos){
+
+timerc++;
+
+if(timerc >= room_speed * _segundos)
+{
+	timerc = 0;
+	var _dialogo = instance_create_layer(x, y, "dialogo", obj_dialogos2);
+	_dialogo.npc_nome = "...";
+	_end();
+
+	
+}
+}
 
