@@ -126,3 +126,17 @@ if(timerc >= room_speed * _segundos)
 }
 }
 
+function cutscene_dialogo_wait_zoom(_segundos){
+
+timerc++;
+
+if(timerc >= room_speed * _segundos and global.dialogo == false and global.cutscene == false)
+{
+	timerc = 0;
+	global.pronto = true;
+	_end();
+
+	
+}
+}
+

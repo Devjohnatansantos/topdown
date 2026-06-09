@@ -53,6 +53,7 @@
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_porta","path":"objects/obj_porta/obj_porta.yy",},},
     {"id":{"name":"obj_room","path":"objects/obj_room/obj_room.yy",},},
+    {"id":{"name":"obj_zoom","path":"objects/obj_zoom/obj_zoom.yy",},},
     {"id":{"name":"Room_casa","path":"rooms/Room_casa/Room_casa.yy",},},
     {"id":{"name":"Room_cutscene1","path":"rooms/Room_cutscene1/Room_cutscene1.yy",},},
     {"id":{"name":"Room_puzzle1v","path":"rooms/Room_puzzle1v/Room_puzzle1v.yy",},},
