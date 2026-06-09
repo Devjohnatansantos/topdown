@@ -1,7 +1,7 @@
 if (global.pronto == true)
 
 {
-zoom = lerp(zoom, 50, 0.001);
+zoom = lerp(zoom, 1, 0.01);
 
 var vw = camera_get_view_width(cam);
 var vh = camera_get_view_height(cam);
@@ -19,7 +19,7 @@ camera_set_view_size(
 
 
 }
-if (zoom == 50)
+if (zoom == 1)
 {
 	instance_destroy();
 }
