@@ -65,6 +65,7 @@
     {"id":{"name":"script_textos","path":"scripts/script_textos/script_textos.yy",},},
     {"id":{"name":"Scripts_audios","path":"scripts/Scripts_audios/Scripts_audios.yy",},},
     {"id":{"name":"Som1","path":"sounds/Som1/Som1.yy",},},
+    {"id":{"name":"Som2","path":"sounds/Som2/Som2.yy",},},
     {"id":{"name":"spr_10_1","path":"sprites/spr_10_1/spr_10_1.yy",},},
     {"id":{"name":"spr_10_2","path":"sprites/spr_10_2/spr_10_2.yy",},},
     {"id":{"name":"spr_cozinheiro_costas","path":"sprites/spr_cozinheiro_costas/spr_cozinheiro_costas.yy",},},
