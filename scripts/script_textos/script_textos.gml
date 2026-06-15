@@ -1,5 +1,6 @@
 global.cutscene = true;
 global.mente = false;
+global.dialogo = false;
 
 function scr_textos(){
 	switch npc_nome{
