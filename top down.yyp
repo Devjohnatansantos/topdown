@@ -40,6 +40,7 @@
     {"id":{"name":"obj_cutscene","path":"objects/obj_cutscene/obj_cutscene.yy",},},
     {"id":{"name":"obj_cutscene2","path":"objects/obj_cutscene2/obj_cutscene2.yy",},},
     {"id":{"name":"obj_cutscene3","path":"objects/obj_cutscene3/obj_cutscene3.yy",},},
+    {"id":{"name":"Obj_desenhar","path":"objects/Obj_desenhar/Obj_desenhar.yy",},},
     {"id":{"name":"obj_dialogos","path":"objects/obj_dialogos/obj_dialogos.yy",},},
     {"id":{"name":"obj_dialogos1","path":"objects/obj_dialogos1/obj_dialogos1.yy",},},
     {"id":{"name":"obj_fade","path":"objects/obj_fade/obj_fade.yy",},},
