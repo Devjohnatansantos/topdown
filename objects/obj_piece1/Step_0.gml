@@ -11,7 +11,7 @@ if (place_meeting(x, y, Obj_tilexadrez))
     target_y = round(y / global.grid_size) * global.grid_size;
 
 
-	x = lerp(x, target_x, 0.1);
-	y = lerp(y, target_y, 0.1);
+	x = lerp(x, target_x, 0.2);
+	y = lerp(y, target_y, 0.2);
 	
 }
