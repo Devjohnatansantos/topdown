@@ -109,6 +109,7 @@
     {"id":{"name":"Spr_tilexadrez","path":"sprites/Spr_tilexadrez/Spr_tilexadrez.yy",},},
     {"id":{"name":"Sprite10","path":"sprites/Sprite10/Sprite10.yy",},},
     {"id":{"name":"Sprite11","path":"sprites/Sprite11/Sprite11.yy",},},
+    {"id":{"name":"Sprite29","path":"sprites/Sprite29/Sprite29.yy",},},
     {"id":{"name":"TileSet2","path":"tilesets/TileSet2/TileSet2.yy",},},
     {"id":{"name":"TileSet3","path":"tilesets/TileSet3/TileSet3.yy",},},
     {"id":{"name":"tl_chao","path":"tilesets/tl_chao/tl_chao.yy",},},
