@@ -30,8 +30,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"sprites",
-    "path":"folders/sprites.yy",
+    "name":"Objetos_aletórios",
+    "path":"folders/sprites/Objetos_aletórios.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
