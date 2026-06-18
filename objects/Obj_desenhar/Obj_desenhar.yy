@@ -10,8 +10,8 @@
   "name":"Obj_desenhar",
   "overriddenProperties":[],
   "parent":{
-    "name":"objetos",
-    "path":"folders/objetos.yy",
+    "name":"Objetos_aleatórios",
+    "path":"folders/objetos/Objetos_aleatórios.yy",
   },
   "parentObjectId":null,
   "persistent":false,

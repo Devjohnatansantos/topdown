@@ -6,8 +6,8 @@
   "name":"obj_piece1",
   "overriddenProperties":[],
   "parent":{
-    "name":"objetos",
-    "path":"folders/objetos.yy",
+    "name":"Puzzle_Formas",
+    "path":"folders/objetos/Puzzle_Formas.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -6,8 +6,8 @@
   "name":"obj_parede",
   "overriddenProperties":[],
   "parent":{
-    "name":"objetos",
-    "path":"folders/objetos.yy",
+    "name":"Player",
+    "path":"folders/objetos/Player.yy",
   },
   "parentObjectId":null,
   "persistent":false,

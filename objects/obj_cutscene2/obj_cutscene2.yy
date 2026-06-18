@@ -9,8 +9,8 @@
   "name":"obj_cutscene2",
   "overriddenProperties":[],
   "parent":{
-    "name":"objetos",
-    "path":"folders/objetos.yy",
+    "name":"Cutscenes",
+    "path":"folders/objetos/Cutscenes.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -10,8 +10,8 @@
   "name":"obj_dialogos",
   "overriddenProperties":[],
   "parent":{
-    "name":"objetos",
-    "path":"folders/objetos.yy",
+    "name":"Player",
+    "path":"folders/objetos/Player.yy",
   },
   "parentObjectId":null,
   "persistent":false,

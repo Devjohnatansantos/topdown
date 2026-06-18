@@ -9,8 +9,8 @@
   "name":"obj_par_npcs",
   "overriddenProperties":[],
   "parent":{
-    "name":"objetos",
-    "path":"folders/objetos.yy",
+    "name":"Npcs",
+    "path":"folders/objetos/Npcs.yy",
   },
   "parentObjectId":null,
   "persistent":false,

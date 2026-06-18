@@ -9,8 +9,8 @@
   "name":"obj_10verdadeiro",
   "overriddenProperties":[],
   "parent":{
-    "name":"objetos",
-    "path":"folders/objetos.yy",
+    "name":"Puzzle_Acheoverdadeiro",
+    "path":"folders/objetos/Puzzle_Acheoverdadeiro.yy",
   },
   "parentObjectId":null,
   "persistent":false,
