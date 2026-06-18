@@ -84,6 +84,7 @@
     {"id":{"name":"Circle","path":"sprites/Circle/Circle.yy",},},
     {"id":{"name":"spr_10_1","path":"sprites/spr_10_1/spr_10_1.yy",},},
     {"id":{"name":"spr_10_2","path":"sprites/spr_10_2/spr_10_2.yy",},},
+    {"id":{"name":"Spr_A","path":"sprites/Spr_A/Spr_A.yy",},},
     {"id":{"name":"spr_cozinheiro_costas","path":"sprites/spr_cozinheiro_costas/spr_cozinheiro_costas.yy",},},
     {"id":{"name":"spr_fogao","path":"sprites/spr_fogao/spr_fogao.yy",},},
     {"id":{"name":"spr_mae_walk","path":"sprites/spr_mae_walk/spr_mae_walk.yy",},},
