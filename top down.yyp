@@ -77,6 +77,7 @@
     {"id":{"name":"room_transicao1","path":"rooms/room_transicao1/room_transicao1.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"script_cutscene","path":"scripts/script_cutscene/script_cutscene.yy",},},
+    {"id":{"name":"Script_Grid","path":"scripts/Script_Grid/Script_Grid.yy",},},
     {"id":{"name":"script_textos","path":"scripts/script_textos/script_textos.yy",},},
     {"id":{"name":"Scripts_audios","path":"scripts/Scripts_audios/Scripts_audios.yy",},},
     {"id":{"name":"Som1","path":"sounds/Som1/Som1.yy",},},
