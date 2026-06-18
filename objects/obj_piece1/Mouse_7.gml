@@ -1,0 +1,4 @@
+if(drag)
+{
+drag = false;
+}
