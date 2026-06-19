@@ -6,6 +6,8 @@ if(drag)
 
 if (place_meeting(x, y, Obj_tilexadrez))
 {
+	
+	var _id = instance_place(x, y, Obj_tilexadrez)
 
     target_x = round(x / global.grid_size) * global.grid_size;
     target_y = round(y / global.grid_size) * global.grid_size;
@@ -14,4 +16,9 @@ if (place_meeting(x, y, Obj_tilexadrez))
 	x = lerp(x, target_x, 0.2);
 	y = lerp(y, target_y, 0.2);
 	
+	colocada_casa = _id.Casa;
+	
 }
+
+show_debug_message(colocada_casa);
+
