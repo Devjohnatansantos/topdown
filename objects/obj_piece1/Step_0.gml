@@ -19,6 +19,10 @@ if (place_meeting(x, y, Obj_tilexadrez))
 	colocada_casa = _id.Casa;
 	
 }
+else
+{
+	colocada_casa = 0;
+}
 
 show_debug_message(colocada_casa);
 
