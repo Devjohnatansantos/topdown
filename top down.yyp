@@ -58,6 +58,7 @@
     {"id":{"name":"obj_fade2","path":"objects/obj_fade2/obj_fade2.yy",},},
     {"id":{"name":"obj_mae_npc","path":"objects/obj_mae_npc/obj_mae_npc.yy",},},
     {"id":{"name":"obj_mae","path":"objects/obj_mae/obj_mae.yy",},},
+    {"id":{"name":"obj_monstro","path":"objects/obj_monstro/obj_monstro.yy",},},
     {"id":{"name":"obj_npc1","path":"objects/obj_npc1/obj_npc1.yy",},},
     {"id":{"name":"obj_npc2","path":"objects/obj_npc2/obj_npc2.yy",},},
     {"id":{"name":"obj_pai_lucky","path":"objects/obj_pai_lucky/obj_pai_lucky.yy",},},
