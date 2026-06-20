@@ -91,6 +91,7 @@
     {"id":{"name":"spr_mae_walk","path":"sprites/spr_mae_walk/spr_mae_walk.yy",},},
     {"id":{"name":"spr_mae","path":"sprites/spr_mae/spr_mae.yy",},},
     {"id":{"name":"spr_mesa_jantar","path":"sprites/spr_mesa_jantar/spr_mesa_jantar.yy",},},
+    {"id":{"name":"Spr_Monstro","path":"sprites/Spr_Monstro/Spr_Monstro.yy",},},
     {"id":{"name":"spr_npc","path":"sprites/spr_npc/spr_npc.yy",},},
     {"id":{"name":"spr_npc2","path":"sprites/spr_npc2/spr_npc2.yy",},},
     {"id":{"name":"spr_pai_lucky","path":"sprites/spr_pai_lucky/spr_pai_lucky.yy",},},
