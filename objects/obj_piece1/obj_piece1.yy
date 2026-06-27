@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Circle",
-    "path":"sprites/Circle/Circle.yy",
+    "name":"spr_bola",
+    "path":"sprites/spr_bola/spr_bola.yy",
   },
   "spriteMaskId":null,
   "visible":true,
