@@ -70,8 +70,10 @@
     {"name":"inst_11CBD880","path":"rooms/Room_desenhar/Room_desenhar.yy",},
     {"name":"inst_72F54902","path":"rooms/Room_desenhar/Room_desenhar.yy",},
     {"name":"inst_7AF1256","path":"rooms/Room_desenhar/Room_desenhar.yy",},
-    {"name":"inst_6F133E7D","path":"rooms/Room_desenhar/Room_desenhar.yy",},
     {"name":"inst_7CC1AFD0","path":"rooms/Room_desenhar/Room_desenhar.yy",},
+    {"name":"inst_47EB597E","path":"rooms/Room_desenhar/Room_desenhar.yy",},
+    {"name":"inst_6BAE9EE5","path":"rooms/Room_desenhar/Room_desenhar.yy",},
+    {"name":"inst_2AF3E3FC","path":"rooms/Room_desenhar/Room_desenhar.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -81,7 +83,9 @@
         {"$GMRInstance":"v4","%Name":"inst_7CC1AFD0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7CC1AFD0","objectId":{"name":"obj_monstro","path":"objects/obj_monstro/obj_monstro.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":5.0,"scaleY":5.0,"x":192.0,"y":128.0,},
       ],"layers":[],"name":"Monstro","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Pieces","depth":300,"effectEnabled":true,"effectType":null,"gridX":64,"gridY":64,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v4","%Name":"inst_6F133E7D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6F133E7D","objectId":{"name":"obj_piece1","path":"objects/obj_piece1/obj_piece1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.90625,"scaleY":1.71875,"x":256.0,"y":256.0,},
+        {"$GMRInstance":"v4","%Name":"inst_47EB597E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_47EB597E","objectId":{"name":"obj_bola_azul","path":"objects/obj_bola_azul/obj_bola_azul.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.0,"scaleY":3.0,"x":1216.0,"y":320.0,},
+        {"$GMRInstance":"v4","%Name":"inst_6BAE9EE5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6BAE9EE5","objectId":{"name":"obj_bola_amarela","path":"objects/obj_bola_amarela/obj_bola_amarela.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.0,"scaleY":3.0,"x":1216.0,"y":448.0,},
+        {"$GMRInstance":"v4","%Name":"inst_2AF3E3FC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2AF3E3FC","objectId":{"name":"obj_bola_verde","path":"objects/obj_bola_verde/obj_bola_verde.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.0,"scaleY":3.0,"x":1216.0,"y":192.0,},
       ],"layers":[],"name":"Pieces","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Tiles","depth":400,"effectEnabled":true,"effectType":null,"gridX":64,"gridY":64,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_5B69DE14","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5B69DE14","objectId":{"name":"Obj_tilexadrez","path":"objects/Obj_tilexadrez/Obj_tilexadrez.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":448.0,"y":128.0,},
