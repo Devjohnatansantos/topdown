@@ -43,6 +43,7 @@
   "name":"top down",
   "resources":[
     {"id":{"name":"fnt_dialogo","path":"fonts/fnt_dialogo/fnt_dialogo.yy",},},
+    {"id":{"name":"Game_manager","path":"objects/Game_manager/Game_manager.yy",},},
     {"id":{"name":"obj_10falso","path":"objects/obj_10falso/obj_10falso.yy",},},
     {"id":{"name":"obj_10verdadeiro","path":"objects/obj_10verdadeiro/obj_10verdadeiro.yy",},},
     {"id":{"name":"obj_bola_amarela","path":"objects/obj_bola_amarela/obj_bola_amarela.yy",},},
