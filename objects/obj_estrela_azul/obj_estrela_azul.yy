@@ -8,13 +8,10 @@
   "name":"obj_estrela_azul",
   "overriddenProperties":[],
   "parent":{
-    "name":"Puzzle_Formas",
-    "path":"folders/objetos/Puzzle_Formas.yy",
+    "name":"Puzzle_labirinto",
+    "path":"folders/objetos/Puzzle_labirinto.yy",
   },
-  "parentObjectId":{
-    "name":"obj_piece_pai",
-    "path":"objects/obj_piece_pai/obj_piece_pai.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
