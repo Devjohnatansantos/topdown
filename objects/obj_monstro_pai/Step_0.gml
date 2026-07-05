@@ -1,2 +1,2 @@
 estado();
-speed = vel;
+timer--;

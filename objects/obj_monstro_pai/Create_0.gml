@@ -1,38 +1,9 @@
-estado = noone;
+
 velh = 0;
 velv = 0;
 vel = 0;
 max_vel = 2;
 timer = 0;
-
-
-
-estado_parado = function()
-{
-	vel = 0;
-	
-	var _dist = 30;
-	if (distance_to_object(obj_player) <= _dist && timer <= 0)
-	{
-		estado = seguindo_player;
-		
-	}
-	else
-	{
-		randomize()
-		var _num = irandom_range(1, 2)
-		
-		if (_num == 1)
-		{
-			estado = estado_parado;
-		}
-		else
-		{
-			estado = estado_rondando;
-		}
-	}
-	
-}
 
 estado_rondando = function()
 {
@@ -48,4 +19,44 @@ estado_rondando = function()
 	
 	
 	
+	
+	
 }
+estado_seguindo_player = function()
+{
+	vel = 0;
+}
+
+estado_parado = function()
+{
+	vel = 0;
+	
+	var _dist = 30;
+	if (distance_to_object(obj_player) <= _dist && timer <= 0)
+	{
+		estado = seguindo_player;
+		
+	}
+	else
+	{
+		if (timer <= 0)
+		{
+		randomize()
+		var _num = irandom_range(1, 2)
+		
+		if (_num == 1)
+		{
+			estado = estado_parado;
+			timer = 100;
+		}
+		else
+		{
+			estado = estado_rondando;
+			timer = 100;
+		}
+		}
+	}
+	
+}
+
+estado = estado_parado;
