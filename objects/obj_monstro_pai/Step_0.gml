@@ -1,0 +1,2 @@
+estado();
+speed = vel;
