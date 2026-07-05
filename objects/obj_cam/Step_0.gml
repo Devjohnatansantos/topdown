@@ -1,3 +1,8 @@
+if (keyboard_check_pressed(vk_f8))
+{
+	window_set_fullscreen(!window_get_fullscreen())
+}
+
 var _room = instance_position(global.cam_alvo.x, global.cam_alvo.y, obj_room);
 
 
