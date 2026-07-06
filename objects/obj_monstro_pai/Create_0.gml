@@ -1,6 +1,10 @@
 estado = noone;
 tempo_estado = room_speed * 10;
 timer_estado = 0;
+destino_x = x;
+destino_y = y;
+
+vel = 1;
 
 muda_estado = function(_estado)
 {
@@ -27,6 +31,11 @@ passeando = function()
 	tempo_estado--;
 	show_debug_message("Estou passeando")
 	image_blend = c_red;
+	
+	destino_x = room_width;
+	destino_y = room_height;
+	
+	
 	muda_estado([parado, passeando]);
 	
 }
