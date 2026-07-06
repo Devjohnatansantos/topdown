@@ -19,7 +19,7 @@ parado = function()
 {
 	image_blend = c_white;
 	
-	muda_estado([passeando]);
+	muda_estado([passeando, parado]);
 }
 
 passeando = function()
@@ -27,7 +27,7 @@ passeando = function()
 	tempo_estado--;
 	show_debug_message("Estou passeando")
 	image_blend = c_red;
-	muda_estado([parado]);
+	muda_estado([parado, passeando]);
 	
 }
 
