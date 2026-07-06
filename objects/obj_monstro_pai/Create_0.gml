@@ -34,6 +34,7 @@ passeando = function()
 	
 	destino_x = room_width;
 	destino_y = room_height;
+	var _dir = point_direction(x, y, destino_x, destino_y);
 	
 	
 	muda_estado([parado, passeando]);
