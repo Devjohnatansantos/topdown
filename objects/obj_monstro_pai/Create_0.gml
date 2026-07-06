@@ -31,11 +31,17 @@ passeando = function()
 	tempo_estado--;
 	show_debug_message("Estou passeando")
 	image_blend = c_red;
+	var _dist = point_distance(x, y, destino_x, destino_y);
 	
-	destino_x = room_width;
-	destino_y = room_height;
+	if (_dist < 100)
+	{
+	destino_x = random(room_width);
+	destino_y = random(room_height);
+	}
 	var _dir = point_direction(x, y, destino_x, destino_y);
 	
+	x += lengthdir_x(vel, _dir);
+	y += lengthdir_y(vel, _dir);
 	
 	muda_estado([parado, passeando]);
 	
