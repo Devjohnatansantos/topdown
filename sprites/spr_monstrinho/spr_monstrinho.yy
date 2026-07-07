@@ -63,7 +63,7 @@
     },
     "name":"spr_monstrinho",
     "playback":1,
-    "playbackSpeed":6.0,
+    "playbackSpeed":8.0,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",

@@ -21,7 +21,7 @@ muda_estado = function(_estado)
 
 parado = function()
 {
-	image_blend = c_white;
+	sprite_index = spr_monstrinho;
 	
 	muda_estado([passeando, parado]);
 }
@@ -30,7 +30,7 @@ passeando = function()
 {
 	tempo_estado--;
 	show_debug_message("Estou passeando")
-	image_blend = c_red;
+	sprite_index = spr_jesper_walking;
 	var _dist = point_distance(x, y, destino_x, destino_y);
 	
 	if (_dist < 100)
