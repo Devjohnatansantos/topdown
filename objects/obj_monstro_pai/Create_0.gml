@@ -38,7 +38,7 @@ passeando = function()
 	
 	var _dist = point_distance(x, y, destino_x, destino_y);
 	
-	if (_dist < 20)
+	if (_dist <= 5)
 	{
 	destino_x = random(room_width);
 	destino_y = random(room_height);
