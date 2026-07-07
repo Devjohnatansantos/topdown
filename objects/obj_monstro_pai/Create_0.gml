@@ -35,9 +35,10 @@ passeando = function()
 	tempo_estado--;
 	show_debug_message("Estou passeando")
 	sprite_index = spr_jesper_walking;
+	
 	var _dist = point_distance(x, y, destino_x, destino_y);
 	
-	if (_dist < 100)
+	if (_dist < 20)
 	{
 	destino_x = random(room_width);
 	destino_y = random(room_height);
@@ -46,6 +47,8 @@ passeando = function()
 	
 	velh = lengthdir_x(vel, _dir);
 	velv = lengthdir_y(vel, _dir);
+	
+	image_xscale = sign(velh);
 	
 	muda_estado([parado, passeando]);
 	
