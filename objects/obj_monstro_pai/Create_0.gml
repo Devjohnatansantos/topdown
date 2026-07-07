@@ -3,6 +3,8 @@ tempo_estado = room_speed * 10;
 timer_estado = 0;
 destino_x = x;
 destino_y = y;
+velh = 0;
+velv = 0;
 
 vel = 1;
 
@@ -22,6 +24,8 @@ muda_estado = function(_estado)
 parado = function()
 {
 	sprite_index = spr_monstrinho;
+	velh = 0;
+	velv = 0;
 	
 	muda_estado([passeando, parado]);
 }
@@ -40,8 +44,8 @@ passeando = function()
 	}
 	var _dir = point_direction(x, y, destino_x, destino_y);
 	
-	x += lengthdir_x(vel, _dir);
-	y += lengthdir_y(vel, _dir);
+	velh = lengthdir_x(vel, _dir);
+	velv = lengthdir_y(vel, _dir);
 	
 	muda_estado([parado, passeando]);
 	
