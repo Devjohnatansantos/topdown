@@ -23,6 +23,7 @@ muda_estado = function(_estado)
 
 perseguir = function()
 {
+	sprite_index = spr_jesper_walking;
 	image_blend = c_red;
 	var _dir = point_direction(x, y, obj_player.x, obj_player.y)
 	
