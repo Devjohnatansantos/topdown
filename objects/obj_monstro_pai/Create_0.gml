@@ -21,6 +21,16 @@ muda_estado = function(_estado)
 	}
 }
 
+perseguir = function()
+{
+	image_blend = c_red;
+	var _dir = point_direction(x, y, obj_player.x, obj_player.y)
+	
+	velh = lengthdir_x(vel, _dir);
+	velv = lengthdir_y(vel, _dir);
+	
+}
+
 parado = function()
 {
 	sprite_index = spr_monstrinho;
@@ -28,7 +38,10 @@ parado = function()
 	velv = 0;
 	
 	muda_estado([passeando, parado]);
+	
+
 }
+
 
 passeando = function()
 {
@@ -53,5 +66,6 @@ passeando = function()
 	muda_estado([parado, passeando]);
 	
 }
+
 
 estado = parado;
