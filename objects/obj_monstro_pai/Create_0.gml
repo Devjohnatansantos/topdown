@@ -29,6 +29,7 @@ perseguir = function()
 	
 	velh = lengthdir_x(vel, _dir);
 	velv = lengthdir_y(vel, _dir);
+	image_xscale = sign(velh);
 	
 }
 
@@ -38,7 +39,15 @@ parado = function()
 	velh = 0;
 	velv = 0;
 	
-	muda_estado([passeando, parado]);
+	var _dist = 150;
+	if (distance_to_object(obj_player) <= _dist)
+	{
+		muda_estado([perseguir])	
+	}
+	else
+	{
+		muda_estado([passeando, parado]);
+	}
 	
 
 }
@@ -50,10 +59,21 @@ passeando = function()
 	show_debug_message("Estou passeando")
 	sprite_index = spr_jesper_walking;
 	
+	var _distp = 150;
+	if (distance_to_object(obj_player) <= _distp)
+	{
+		muda_estado([perseguir])	
+	}
+	else
+	{
+		
+	
+	
 	var _dist = point_distance(x, y, destino_x, destino_y);
 	
 	if (_dist <= 50)
 	{
+		randomize();
 	destino_x = random(room_width);
 	destino_y = random(room_height);
 	}
@@ -65,6 +85,7 @@ passeando = function()
 	image_xscale = sign(velh);
 	
 	muda_estado([parado, passeando]);
+	}
 	
 }
 

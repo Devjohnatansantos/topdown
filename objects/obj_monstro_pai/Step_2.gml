@@ -7,7 +7,7 @@ if(place_meeting(x + velh, y, obj_parede))
 		x += _velh;
 	}
 	
-	velh = 0;
+	velh = -velh;
 }
 
 x += velh;
@@ -21,7 +21,7 @@ if(place_meeting(x, y + velv, obj_parede))
 		y += _velv;
 	}
 	
-	velv = 0;
+	velv = -velv;
 }
 
 y += velv;
