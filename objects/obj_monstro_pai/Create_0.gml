@@ -24,12 +24,18 @@ muda_estado = function(_estado)
 perseguir = function()
 {
 	sprite_index = spr_jesper_walking;
-	image_blend = c_red;
+	
 	var _dir = point_direction(x, y, obj_player.x, obj_player.y)
 	
 	velh = lengthdir_x(vel, _dir);
 	velv = lengthdir_y(vel, _dir);
 	image_xscale = sign(velh);
+	var _dist = 100;
+	
+	if (distance_to_object(obj_player) > 100)
+	{
+		muda_estado([passeando, parado]);
+	}
 	
 }
 
@@ -39,7 +45,7 @@ parado = function()
 	velh = 0;
 	velv = 0;
 	
-	var _dist = 50;
+	var _dist = 100;
 	if (distance_to_object(obj_player) <= _dist)
 	{
 		muda_estado([perseguir])	
@@ -59,7 +65,7 @@ passeando = function()
 	show_debug_message("Estou passeando")
 	sprite_index = spr_jesper_walking;
 	
-	var _distp = 50;
+	var _distp = 100;
 	if (distance_to_object(obj_player) <= _distp)
 	{
 		muda_estado([perseguir])	
@@ -71,7 +77,7 @@ passeando = function()
 	
 	var _dist = point_distance(x, y, destino_x, destino_y);
 	
-	if (_dist <= 50)
+	if (_dist <= 100)
 	{
 		randomize();
 	destino_x = random(room_width);
