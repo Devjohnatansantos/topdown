@@ -35,6 +35,9 @@
     "name":"spr_monstrinho",
     "path":"sprites/spr_monstrinho/spr_monstrinho.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"spr_monstrinho",
+    "path":"sprites/spr_monstrinho/spr_monstrinho.yy",
+  },
   "visible":true,
 }

@@ -39,7 +39,7 @@ parado = function()
 	velh = 0;
 	velv = 0;
 	
-	var _dist = 150;
+	var _dist = 50;
 	if (distance_to_object(obj_player) <= _dist)
 	{
 		muda_estado([perseguir])	
@@ -59,7 +59,7 @@ passeando = function()
 	show_debug_message("Estou passeando")
 	sprite_index = spr_jesper_walking;
 	
-	var _distp = 150;
+	var _distp = 50;
 	if (distance_to_object(obj_player) <= _distp)
 	{
 		muda_estado([perseguir])	
