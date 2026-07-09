@@ -19,7 +19,7 @@ movimento =function()
 var _up = keyboard_check(ord("W")),
 _down = keyboard_check(ord("S")),
 _right = keyboard_check(ord("D")),
-_left = keyboard_check(ord("A")),
+_left = keyboard_check(ord("A"));
 _space = keyboard_check(vk_space);
 
 
@@ -28,7 +28,15 @@ _space = keyboard_check(vk_space);
 if (_up xor _down or _left xor _right)
 {
 	move_dir = point_direction(0, 0, (_right-_left), (_down-_up))
-	vel = max_vel;
+	
+	if (_space && timer_correr >= 0)
+	{
+		vel = 1;
+	}
+	else
+	{
+		vel = max_vel;
+	}
 }
 else
 {
