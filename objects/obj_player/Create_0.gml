@@ -5,7 +5,7 @@ velv = 0;
 max_vel = 0.2;
 vel = 0;
 move_dir = 0;
-timer_correr = room_speed * 2;
+timer_correr = room_speed * 1;
 
 
 

@@ -2,7 +2,7 @@ if (global.dialogo == false && global.cutscene == false)
 {
 movimento();
 estado();
-if (_space)
+if (_space && timer_correr > 0)
 {
 timer_correr--;
 }
