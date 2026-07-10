@@ -43,6 +43,12 @@ percebe_player = function()
 {
 	velh = 0;
 	velv = 0;
+	timerpercebe = room_speed * 1;
+	if(timer_percebe <= 0)
+	{
+		muda_estado([perseguir]);
+	}
+	
 	
 }
 
