@@ -3,4 +3,4 @@ global.cutscene = false;
 global.mente = true;
 
 parar_sons();
-toca_som(Som1);
+toca_som(Som1, 1);

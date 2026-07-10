@@ -4,8 +4,8 @@ function parar_sons()
 	
 }
 
-function toca_som(_som)
+function toca_som(_som, _loop)
 {
-	audio_play_sound(_som, 1, 1)
+	audio_play_sound(_som, 1, _loop)
 	
 }
