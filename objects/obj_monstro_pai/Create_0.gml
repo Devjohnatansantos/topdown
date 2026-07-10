@@ -41,7 +41,8 @@ perseguir = function()
 
 percebe_player = function()
 {
-	
+	velh = 0;
+	velv = 0;
 	
 }
 
