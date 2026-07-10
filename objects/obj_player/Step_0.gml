@@ -2,19 +2,22 @@ if (global.dialogo == false && global.cutscene == false)
 {
 movimento();
 estado();
-if (_space && timer_correr > 0)
+if (_space && timer_correr >= 0)
 {
-timer_correr--;
+	timer_correr--;
 }
 else
 {
-	if (timer_correr < 60)
+	if(!_space)
+	{
+	if (timer_correr < 30)
 	{
 	 timer_correr++;	
 	}
 	else
 	{
-		timer_correr = 60;
+		timer_correr = 30;
+	}
 	}
 }
 }

@@ -5,7 +5,7 @@ velv = 0;
 max_vel = 0.2;
 vel = 0;
 move_dir = 0;
-timer_correr = room_speed * 1;
+timer_correr = room_speed * 0.5;
 
 
 
@@ -31,7 +31,7 @@ if (_up xor _down or _left xor _right)
 	
 	if (_space && timer_correr >= 0)
 	{
-		vel = 1;
+		vel = 1.5;
 	}
 	else
 	{
