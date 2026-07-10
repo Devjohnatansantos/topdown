@@ -32,7 +32,7 @@ perseguir = function()
 	image_xscale = sign(velh);
 	var _dist = 100;
 	
-	if (distance_to_object(obj_player) > 100)
+	if (distance_to_object(obj_player) >= 50)
 	{
 		muda_estado([passeando, parado]);
 	}
