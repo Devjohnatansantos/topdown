@@ -14,10 +14,6 @@ else
 	{
 	 timer_correr++;	
 	}
-	else
-	{
-		timer_correr = 30;
-	}
 	}
 }
 }
