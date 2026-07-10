@@ -6,7 +6,7 @@ max_vel = 0.2;
 vel = 0;
 move_dir = 0;
 timer_correr = room_speed * 0.5;
-timer_correr_espera = 0;
+
 
 
 
