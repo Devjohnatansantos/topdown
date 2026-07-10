@@ -39,6 +39,12 @@ perseguir = function()
 	
 }
 
+percebe_player = function()
+{
+	
+	
+}
+
 parado = function()
 {
 	sprite_index = spr_monstrinho;
