@@ -48,6 +48,13 @@ percebe_player = function()
 	{
 		muda_estado([perseguir]);
 	}
+	else
+	{
+		if (distance_to_object(obj_player) >= 100)
+		{
+			muda_estado([passeando, parado]);
+		}	
+	}
 	
 	
 }
