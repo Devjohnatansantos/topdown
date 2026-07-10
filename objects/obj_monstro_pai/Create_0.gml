@@ -5,6 +5,7 @@ destino_x = x;
 destino_y = y;
 velh = 0;
 velv = 0;
+som_tocado = false;
 
 vel = 1;
 
@@ -24,7 +25,12 @@ muda_estado = function(_estado)
 perseguir = function()
 {
 	sprite_index = spr_jesper_walking;
-	toca_som(Som3, 0);
+	if (!som_tocado)
+{
+    toca_som(Som3, false)
+    som_tocado = true;
+}
+	
 	
 	var _dir = point_direction(x, y, obj_player.x, obj_player.y)
 	
