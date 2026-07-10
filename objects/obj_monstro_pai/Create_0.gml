@@ -43,8 +43,9 @@ percebe_player = function()
 {
 	velh = 0;
 	velv = 0;
-	timerpercebe = room_speed * 1;
-	if(timer_percebe <= 0)
+	sprite_index = spr_monstrinho
+	var _timerpercebe = room_speed * 1;
+	if(_timer_percebe <= 0)
 	{
 		muda_estado([perseguir]);
 	}
@@ -68,7 +69,7 @@ parado = function()
 	var _dist = 100;
 	if (distance_to_object(obj_player) <= _dist)
 	{
-		muda_estado([perseguir])	
+		muda_estado([percebe_player])	
 	}
 	else
 	{
@@ -88,7 +89,7 @@ passeando = function()
 	var _distp = 100;
 	if (distance_to_object(obj_player) <= _distp)
 	{
-		muda_estado([perseguir])	
+		muda_estado([percebe_player])	
 	}
 	else
 	{
