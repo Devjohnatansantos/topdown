@@ -7,13 +7,6 @@ vel = 0;
 move_dir = 0;
 timer_correr = room_speed * 0.5;
 _space = noone;
-
-
-
-
-
-
-
 distance = 50;
 
 movimento =function()
