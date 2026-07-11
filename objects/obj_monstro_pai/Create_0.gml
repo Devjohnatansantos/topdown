@@ -6,7 +6,6 @@ destino_y = y;
 velh = 0;
 velv = 0;
 som_tocado = false;
-_distp = 100;
 
 vel = 1;
 
@@ -40,25 +39,28 @@ perseguir = function()
 	image_xscale = sign(velh);
 	var _dist = 100;
 	
-	if (distance_to_object(obj_player) >= _dist)
+	if (distance_to_object(obj_player) >= 100)
 	{
 		muda_estado([passeando, parado]);
 	}
-	if (distance_to_object(obj_player) <= 20)
-	{
-		muda_estado([bater])	
-	}
+	
 }
 
 parado = function()
 {
-	som_tocado = false;
 	sprite_index = spr_monstrinho;
 	velh = 0;
 	velv = 0;
-
-
+	
+	var _dist = 100;
+	if (distance_to_object(obj_player) <= _dist)
+	{
+		muda_estado([perseguir])	
+	}
+	else
+	{
 		muda_estado([passeando, parado]);
+	}
 	
 
 }
@@ -69,8 +71,14 @@ passeando = function()
 	tempo_estado--;
 	show_debug_message("Estou passeando")
 	sprite_index = spr_jesper_walking;
-	som_tocado = false;
-
+	
+	var _distp = 100;
+	if (distance_to_object(obj_player) <= _distp)
+	{
+		muda_estado([perseguir])	
+	}
+	else
+	{
 		
 	
 	
@@ -92,14 +100,7 @@ passeando = function()
 	muda_estado([parado, passeando]);
 	}
 	
-	bater = function()
-	{
-		image_blend = c_red;
-		velh = 0;
-		velv = 0;
-	}
-	
-
+}
 
 
 estado = parado;
