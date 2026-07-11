@@ -6,7 +6,8 @@ max_vel = 0.2;
 vel = 0;
 move_dir = 0;
 timer_correr = room_speed * 0.5;
-_space = keyboard_check(vk_space);
+_space = noone;
+
 
 
 
@@ -21,7 +22,7 @@ var _up = keyboard_check(ord("W")),
 _down = keyboard_check(ord("S")),
 _right = keyboard_check(ord("D")),
 _left = keyboard_check(ord("A"));
-
+_space = keyboard_check(vk_space);
 
 
 
