@@ -6,7 +6,7 @@ destino_y = y;
 velh = 0;
 velv = 0;
 som_tocado = false;
-
+_dist = noone;
 vel = 1;
 
 muda_estado = function(_estado)
@@ -37,11 +37,10 @@ perseguir = function()
 	velh = lengthdir_x(vel, _dir);
 	velv = lengthdir_y(vel, _dir);
 	image_xscale = sign(velh);
-	var _dist = 100;
 	
-	if (distance_to_object(obj_player) >= 100)
+	if (distance_to_object(obj_player) > _dist)
 	{
-		muda_estado([passeando, parado]);
+		
 	}
 	
 }
@@ -52,7 +51,7 @@ parado = function()
 	velh = 0;
 	velv = 0;
 	
-	var _dist = 100;
+	_dist = 100;
 	if (distance_to_object(obj_player) <= _dist)
 	{
 		muda_estado([perseguir])	
