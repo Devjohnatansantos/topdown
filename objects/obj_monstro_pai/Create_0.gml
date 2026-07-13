@@ -1,5 +1,5 @@
 estado = noone;
-tempo_estado = room_speed * 10;
+tempo_estado = room_speed * 5;
 timer_estado = 0;
 destino_x = x;
 destino_y = y;
@@ -18,7 +18,7 @@ muda_estado = function(_estado)
 	if (timer_estado == tempo_estado or tempo_estado <= 0)
 	{
 		estado = _estado[irandom(array_length(_estado)-1)];	
-		tempo_estado = room_speed * 10;
+		tempo_estado = room_speed * 1;
 	}
 }
 
@@ -40,7 +40,7 @@ perseguir = function()
 	
 	if (distance_to_object(obj_player) > _dist)
 	{
-		
+		estado = parado;
 	}
 	
 }
@@ -54,7 +54,7 @@ parado = function()
 	_dist = 100;
 	if (distance_to_object(obj_player) <= _dist)
 	{
-		muda_estado([perseguir])	
+		estado = perseguir;	
 	}
 	else
 	{
@@ -67,19 +67,15 @@ parado = function()
 
 passeando = function()
 {
-	tempo_estado--;
-	show_debug_message("Estou passeando")
-	sprite_index = spr_jesper_walking;
-	
-	var _distp = 100;
-	if (distance_to_object(obj_player) <= _distp)
+	if (distance_to_object(obj_player) <= 100)
 	{
-		muda_estado([perseguir])	
+		estado = perseguir;	
 	}
 	else
 	{
-		
-	
+	tempo_estado--;
+	show_debug_message("Estou passeando")
+	sprite_index = spr_jesper_walking;
 	
 	var _dist = point_distance(x, y, destino_x, destino_y);
 	
@@ -98,8 +94,7 @@ passeando = function()
 	
 	muda_estado([parado, passeando]);
 	}
-	
-}
+	}
 
 
 estado = parado;
