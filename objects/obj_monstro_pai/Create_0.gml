@@ -1,5 +1,5 @@
 estado = noone;
-tempo_estado = room_speed * 5;
+tempo_estado = room_speed * 10;
 timer_estado = 0;
 destino_x = x;
 destino_y = y;
@@ -18,7 +18,7 @@ muda_estado = function(_estado)
 	if (timer_estado == tempo_estado or tempo_estado <= 0)
 	{
 		estado = _estado[irandom(array_length(_estado)-1)];	
-		tempo_estado = room_speed * 1;
+		tempo_estado = room_speed * 10;
 	}
 }
 
