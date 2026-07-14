@@ -26,7 +26,7 @@
   "origin":4,
   "parent":{
     "name":"Pieces",
-    "path":"folders/sprites/Pieces.yy",
+    "path":"folders/sprites/Puzzle_labirinto/Pieces.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

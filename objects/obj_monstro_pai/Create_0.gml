@@ -42,6 +42,10 @@ perseguir = function()
 	{
 		estado = parado;
 	}
+	if (distance_to_object(obj_player) <= 40)
+	{
+		estado = atk;
+	}
 	
 }
 
@@ -94,6 +98,12 @@ passeando = function()
 	
 	muda_estado([parado, passeando]);
 	}
+	}
+	
+	atk = function()
+	{
+			sprite_index = spr_jesper_atk;
+		
 	}
 
 
