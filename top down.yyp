@@ -94,6 +94,7 @@
     {"id":{"name":"spr_cozinheiro_costas","path":"sprites/spr_cozinheiro_costas/spr_cozinheiro_costas.yy",},},
     {"id":{"name":"spr_estrela","path":"sprites/spr_estrela/spr_estrela.yy",},},
     {"id":{"name":"spr_fogao","path":"sprites/spr_fogao/spr_fogao.yy",},},
+    {"id":{"name":"spr_jesper_atk","path":"sprites/spr_jesper_atk/spr_jesper_atk.yy",},},
     {"id":{"name":"spr_jesper_walking","path":"sprites/spr_jesper_walking/spr_jesper_walking.yy",},},
     {"id":{"name":"spr_mae_walk","path":"sprites/spr_mae_walk/spr_mae_walk.yy",},},
     {"id":{"name":"spr_mae","path":"sprites/spr_mae/spr_mae.yy",},},
