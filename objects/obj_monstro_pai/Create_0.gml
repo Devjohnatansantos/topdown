@@ -117,7 +117,7 @@ passeando = function()
 	
 	pedra_atk = function()
 	{
-		
+		screenshake(10)
 		
 	}
 
