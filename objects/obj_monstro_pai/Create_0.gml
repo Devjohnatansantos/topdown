@@ -103,6 +103,10 @@ passeando = function()
 	atk = function()
 	{
 			sprite_index = spr_jesper_atk;
+			if (image_index >= image_number - 1)
+			{
+				
+			}
 		
 	}
 
