@@ -107,6 +107,7 @@ passeando = function()
 			{
 				sprite_index = spr_monstrinho;
 				image_speed = 0;
+				
 			}
 		
 	}
