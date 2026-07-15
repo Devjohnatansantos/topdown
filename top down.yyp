@@ -81,6 +81,8 @@
     {"id":{"name":"Room_puzzle_labirinto","path":"rooms/Room_puzzle_labirinto/Room_puzzle_labirinto.yy",},},
     {"id":{"name":"room_transicao1","path":"rooms/room_transicao1/room_transicao1.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"scr_screenshake","path":"scripts/scr_screenshake/scr_screenshake.yy",},},
+    {"id":{"name":"scr_strech","path":"scripts/scr_strech/scr_strech.yy",},},
     {"id":{"name":"script_cutscene","path":"scripts/script_cutscene/script_cutscene.yy",},},
     {"id":{"name":"Script_Grid","path":"scripts/Script_Grid/Script_Grid.yy",},},
     {"id":{"name":"script_textos","path":"scripts/script_textos/script_textos.yy",},},

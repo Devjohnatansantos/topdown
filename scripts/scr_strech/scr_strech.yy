@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_strech",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_strech",
+  "parent":{
+    "name":"efeitos",
+    "path":"folders/efeitos.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
