@@ -43,6 +43,7 @@ perseguir = function()
 	{
 		estado = parado;
 	}
+
 	if (distance_to_object(obj_player) <= 60 && timer_pedra <= 0)
 	{
 		estado = atk;
@@ -128,15 +129,15 @@ passeando = function()
 			var _escolha = irandom_range(1, 2)
 			if (_escolha == 1)
 			{
-				var _precisao = random_range(0, 50)
-				var _precisaoy = random_range(80, 200)
+				var _precisao = random_range(0, 100)
+				var _precisaoy = random_range(80, 120)
 				instance_create_layer(obj_player.x + _precisao, obj_player.y - _precisaoy, "Instances", obj_pedra)
 				estado = parado;
 			}
 			if (_escolha == 2)
 			{
-				var _precisao = random_range(0, 50)
-				var _precisaoy = random_range(80, 200)
+				var _precisao = random_range(0, 100)
+				var _precisaoy = random_range(80, 120)
 				instance_create_layer(obj_player.x - _precisao, obj_player.y - _precisaoy, "Instances", obj_pedra)
 				estado = parado;
 			}
