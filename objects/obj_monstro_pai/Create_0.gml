@@ -8,6 +8,7 @@ velv = 0;
 som_tocado = false;
 _dist = noone;
 vel = 1;
+timer_pedra = 0;
 
 muda_estado = function(_estado)
 {
@@ -42,7 +43,7 @@ perseguir = function()
 	{
 		estado = parado;
 	}
-	if (distance_to_object(obj_player) <= 40)
+	if (distance_to_object(obj_player) <= 60 && timer_pedra <= 0)
 	{
 		estado = atk;
 	}
@@ -107,9 +108,15 @@ passeando = function()
 		sprite_index = spr_jesper_atk;
 			if (image_index >= image_number - 1)
 			{
-				image_speed = 0;
-				estado = pedra_atk;
-				
+				if(timer_pedra <= 0)
+				{
+					estado = pedra_atk;
+					timer_pedra = 180;
+				}
+				else
+				{
+					estado = parado;
+				}
 			}
 		
 	}
@@ -122,10 +129,18 @@ passeando = function()
 			if (_escolha == 1)
 			{
 				var _precisao = random_range(0, 50)
-				instance_create_layer(obj_player.x + _precisao, 0, layer, obj_pedra)
+				var _precisaoy = random_range(80, 200)
+				instance_create_layer(obj_player.x + _precisao, obj_player.y - _precisaoy, "Instances", obj_pedra)
+				estado = parado;
+			}
+			if (_escolha == 2)
+			{
+				var _precisao = random_range(0, 50)
+				var _precisaoy = random_range(80, 200)
+				instance_create_layer(obj_player.x - _precisao, obj_player.y - _precisaoy, "Instances", obj_pedra)
+				estado = parado;
 			}
 		}
-		
 	}
 
 
