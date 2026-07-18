@@ -111,6 +111,7 @@
     {"id":{"name":"spr_pai_lucky","path":"sprites/spr_pai_lucky/spr_pai_lucky.yy",},},
     {"id":{"name":"spr_parede","path":"sprites/spr_parede/spr_parede.yy",},},
     {"id":{"name":"spr_paredes","path":"sprites/spr_paredes/spr_paredes.yy",},},
+    {"id":{"name":"spr_pedra","path":"sprites/spr_pedra/spr_pedra.yy",},},
     {"id":{"name":"spr_player_anda","path":"sprites/spr_player_anda/spr_player_anda.yy",},},
     {"id":{"name":"spr_player_anda1_mente","path":"sprites/spr_player_anda1_mente/spr_player_anda1_mente.yy",},},
     {"id":{"name":"spr_player_anda1","path":"sprites/spr_player_anda1/spr_player_anda1.yy",},},
