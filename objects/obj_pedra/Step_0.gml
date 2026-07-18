@@ -6,6 +6,7 @@ if (y <= obj_player.y)
 }
 else
 {
+	
 	instance_destroy();
 }
 
