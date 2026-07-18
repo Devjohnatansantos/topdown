@@ -116,7 +116,15 @@ passeando = function()
 	
 	pedra_atk = function()
 	{
-		screenshake(10)
+		repeat(5)
+		{
+			var _escolha = irandom_range(1, 2)
+			if (_escolha == 1)
+			{
+				var _precisao = random_range(0, 50)
+				instance_create_layer(obj_player.x + _precisao, 0, layer, obj_pedra)
+			}
+		}
 		
 	}
 
