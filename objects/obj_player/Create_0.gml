@@ -12,6 +12,8 @@ knockback_x = 0;
 knockback_y = 0;
 knockback_friction = 0.8;
 
+estrelas = 0;
+
 
 
 
