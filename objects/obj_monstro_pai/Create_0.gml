@@ -46,6 +46,7 @@ perseguir = function()
 
 	if (distance_to_object(obj_player) <= 60 && timer_pedra <= 0)
 	{
+		image_index = 0;
 		estado = atk;
 	}
 	
@@ -108,7 +109,7 @@ passeando = function()
 		velv = 0;
 		sprite_index = spr_jesper_atk;
 		image_speed = 1
-			if (image_index >= image_number - 1)
+			if (image_index > image_number - 1)
 			{
 				if(timer_pedra <= 0)
 				{
@@ -128,13 +129,13 @@ passeando = function()
 	
 	pedra_atk = function()
 	{
-		repeat(5)
+		repeat(6)
 		{
 			var _escolha = irandom_range(1, 2)
 			if (_escolha == 1)
 			{
-				var _precisao = random_range(0, 100)
-				var _precisaoy = random_range(80, 120)
+				var _precisao = random_range(0, 250)
+				var _precisaoy = random_range(100, 300)
 				instance_create_layer(obj_player.x + _precisao, obj_player.y - _precisaoy, "Instances", obj_pedra)
 				estado = parado;
 			}
