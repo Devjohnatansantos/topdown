@@ -21,6 +21,19 @@ timer--;
 
 depth = -bbox_bottom;
 
+if (place_meeting(x, y, obj_monstro_pai))
+{
+    var inst = instance_place(x, y, obj_monstro_pai);
+
+    if (inst != noone)
+    {
+        var dir = point_direction(inst.x, inst.y, x, y);
+
+        x += lengthdir_x(10, dir);
+        y += lengthdir_y(10, dir);
+    }
+}
+
 #region diálogos
 
 if(distance_to_object(obj_par_npcs) <= 10 and global.dialogo == false and timer <= 0)

@@ -33,4 +33,17 @@ if(place_meeting(x, y + velv, obj_parede))
 
 y += velv;
 
+if (place_meeting(x, y, obj_player))
+{
+    var inst = instance_place(x, y, obj_player);
+
+    if (inst != noone)
+    {
+        var dir = point_direction(inst.x, inst.y, x, y);
+
+        x += lengthdir_x(10, dir);
+        y += lengthdir_y(10, dir);
+    }
+}
+
 	

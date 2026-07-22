@@ -107,16 +107,20 @@ passeando = function()
 		velh = 0;
 		velv = 0;
 		sprite_index = spr_jesper_atk;
+		image_speed = 1
 			if (image_index >= image_number - 1)
 			{
 				if(timer_pedra <= 0)
 				{
 					estado = pedra_atk;
 					timer_pedra = 180;
+					
 				}
 				else
 				{
+					
 					estado = parado;
+					
 				}
 			}
 		
