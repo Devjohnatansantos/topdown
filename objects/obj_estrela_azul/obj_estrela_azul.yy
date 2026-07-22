@@ -11,7 +11,10 @@
     "name":"Puzzle_labirinto",
     "path":"folders/objetos/Puzzle_labirinto.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_estrela_amarela",
+    "path":"objects/obj_estrela_amarela/obj_estrela_amarela.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
