@@ -6,8 +6,12 @@ if (y <= obj_player.y)
 }
 else
 {
-	
+	sprite_index = spr_rocha_destroy;
+	vspeed = 0;
+	if (image_index >= image_number - 1)
+	{
 	instance_destroy();
+	}
 }
 
 if (place_meeting(x, y, obj_pedra))

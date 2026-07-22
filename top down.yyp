@@ -121,6 +121,7 @@
     {"id":{"name":"spr_porta","path":"sprites/spr_porta/spr_porta.yy",},},
     {"id":{"name":"spr_prato","path":"sprites/spr_prato/spr_prato.yy",},},
     {"id":{"name":"spr_quadro","path":"sprites/spr_quadro/spr_quadro.yy",},},
+    {"id":{"name":"spr_rocha_destroy","path":"sprites/spr_rocha_destroy/spr_rocha_destroy.yy",},},
     {"id":{"name":"spr_room","path":"sprites/spr_room/spr_room.yy",},},
     {"id":{"name":"spr_tileset_chao","path":"sprites/spr_tileset_chao/spr_tileset_chao.yy",},},
     {"id":{"name":"Spr_tilexadrez","path":"sprites/Spr_tilexadrez/Spr_tilexadrez.yy",},},
