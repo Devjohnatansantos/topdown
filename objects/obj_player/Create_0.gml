@@ -8,6 +8,9 @@ move_dir = 0;
 timer_correr = room_speed * 0.5;
 _space = noone;
 
+knockback_x = 0;
+knockback_y = 0;
+knockback_friction = 0.8;
 
 
 

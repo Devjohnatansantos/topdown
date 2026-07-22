@@ -21,18 +21,7 @@ timer--;
 
 depth = -bbox_bottom;
 
-if (place_meeting(x, y, obj_monstro_pai))
-{
-    var inst = instance_place(x, y, obj_monstro_pai);
 
-    if (inst != noone)
-    {
-        var dir = point_direction(inst.x, inst.y, x, y);
-
-        x += lengthdir_x(10, dir);
-        y += lengthdir_y(10, dir);
-    }
-}
 
 #region diálogos
 
@@ -50,3 +39,46 @@ if(distance_to_object(obj_par_npcs) <= 10 and global.dialogo == false and timer 
 
 
 #endregion diálogos
+
+
+if (knockback_x != 0)
+{
+    if (!place_meeting(x + knockback_x, y, obj_parede))
+    {
+        x += knockback_x;
+    }
+    else
+    {
+      
+        while (!place_meeting(x + sign(knockback_x), y, obj_parede))
+        {
+            x += sign(knockback_x);
+        }
+
+        knockback_x = 0;
+    }
+}
+
+
+if (knockback_y != 0)
+{
+    if (!place_meeting(x, y + knockback_y, obj_parede))
+    {
+        y += knockback_y;
+    }
+    else
+    {
+        while (!place_meeting(x, y + sign(knockback_y), obj_parede))
+        {
+            y += sign(knockback_y);
+        }
+
+        knockback_y = 0;
+    }
+}
+
+knockback_x *= knockback_friction;
+knockback_y *= knockback_friction;
+
+if (abs(knockback_x) < 0.1) knockback_x = 0;
+if (abs(knockback_y) < 0.1) knockback_y = 0;
