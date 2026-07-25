@@ -84,3 +84,14 @@ if (abs(knockback_x) < 0.1) knockback_x = 0;
 if (abs(knockback_y) < 0.1) knockback_y = 0;
 
 show_debug_message(estrelas)
+
+if (estrelas >= 3)
+{
+	room_goto_next();
+}
+
+
+
+
+
+

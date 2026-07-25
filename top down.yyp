@@ -135,12 +135,12 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room_puzzle_labirinto","path":"rooms/Room_puzzle_labirinto/Room_puzzle_labirinto.yy",},},
     {"roomId":{"name":"Room_cutscene1","path":"rooms/Room_cutscene1/Room_cutscene1.yy",},},
     {"roomId":{"name":"Room_casa","path":"rooms/Room_casa/Room_casa.yy",},},
     {"roomId":{"name":"Room_puzzle_acheoverdadeiro","path":"rooms/Room_puzzle_acheoverdadeiro/Room_puzzle_acheoverdadeiro.yy",},},
     {"roomId":{"name":"room_transicao1","path":"rooms/room_transicao1/room_transicao1.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Room_puzzle_labirinto","path":"rooms/Room_puzzle_labirinto/Room_puzzle_labirinto.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
