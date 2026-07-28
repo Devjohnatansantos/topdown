@@ -34,6 +34,9 @@
     "name":"spr_pedra",
     "path":"sprites/spr_pedra/spr_pedra.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"spr_pedra",
+    "path":"sprites/spr_pedra/spr_pedra.yy",
+  },
   "visible":true,
 }
