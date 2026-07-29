@@ -10,6 +10,7 @@ _dist = noone;
 vel = 1;
 timer_pedra = 0;
 
+
 muda_estado = function(_estado)
 {
 	tempo_estado--;
@@ -25,7 +26,7 @@ muda_estado = function(_estado)
 
 perseguir = function()
 {
-	sprite_index = spr_jesper_walking;
+	sprite_index = Sprite_andando;
 	if (!som_tocado)
 {
     toca_som(Som3, false)
@@ -47,14 +48,14 @@ perseguir = function()
 	if (distance_to_object(obj_player) <= 60 && timer_pedra <= 0)
 	{
 		image_index = 0;
-		estado = atk;
+		estado = ataques();
 	}
 	
 }
 
 parado = function()
 {
-	sprite_index = spr_monstrinho;
+	sprite_index = Sprite_parado;
 	velh = 0;
 	velv = 0;
 	
@@ -82,7 +83,7 @@ passeando = function()
 	{
 	tempo_estado--;
 	show_debug_message("Estou passeando")
-	sprite_index = spr_jesper_walking;
+	sprite_index = Sprite_andando;
 	
 	var _dist = point_distance(x, y, destino_x, destino_y);
 	
@@ -103,11 +104,15 @@ passeando = function()
 	}
 	}
 	
+	ataques = function()
+	{
+	if(atk == true)
+	{
 	atk = function()
 	{
 		velh = 0;
 		velv = 0;
-		sprite_index = spr_jesper_atk;
+		sprite_index = Sprite_atk;
 		image_speed = 1
 			if (image_index > image_number - 1)
 			{
@@ -125,6 +130,10 @@ passeando = function()
 				}
 			}
 		
+	}
+	}
+	
+	
 	}
 	
 	pedra_atk = function()
