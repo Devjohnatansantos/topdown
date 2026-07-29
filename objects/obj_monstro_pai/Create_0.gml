@@ -10,7 +10,6 @@ _dist = noone;
 vel = 1;
 timer_pedra = 0;
 
-
 muda_estado = function(_estado)
 {
 	tempo_estado--;
@@ -48,7 +47,7 @@ perseguir = function()
 	if (distance_to_object(obj_player) <= 60 && timer_pedra <= 0)
 	{
 		image_index = 0;
-		estado = ataques();
+		estado = atk;
 	}
 	
 }
@@ -104,10 +103,6 @@ passeando = function()
 	}
 	}
 	
-	ataques = function()
-	{
-	if(atk == true)
-	{
 	atk = function()
 	{
 		velh = 0;
@@ -130,10 +125,6 @@ passeando = function()
 				}
 			}
 		
-	}
-	}
-	
-	
 	}
 	
 	pedra_atk = function()
