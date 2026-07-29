@@ -101,6 +101,7 @@
     {"id":{"name":"spr_fogao","path":"sprites/spr_fogao/spr_fogao.yy",},},
     {"id":{"name":"spr_jesper_atk","path":"sprites/spr_jesper_atk/spr_jesper_atk.yy",},},
     {"id":{"name":"spr_jesper_walking","path":"sprites/spr_jesper_walking/spr_jesper_walking.yy",},},
+    {"id":{"name":"spr_king_master","path":"sprites/spr_king_master/spr_king_master.yy",},},
     {"id":{"name":"spr_mae_walk","path":"sprites/spr_mae_walk/spr_mae_walk.yy",},},
     {"id":{"name":"spr_mae","path":"sprites/spr_mae/spr_mae.yy",},},
     {"id":{"name":"spr_mesa_jantar","path":"sprites/spr_mesa_jantar/spr_mesa_jantar.yy",},},
