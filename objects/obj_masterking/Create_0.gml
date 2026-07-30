@@ -133,21 +133,21 @@ passeando = function()
 	pedra_atk = function()
 	{
 		
-		repeat(6)
+		repeat(3)
 		{
 			var _escolha = irandom_range(1, 2)
 			if (_escolha == 1)
 			{
-				var _precisao = random_range(0, 250)
-				var _precisaoy = random_range(100, 300)
-				instance_create_layer(obj_player.x + _precisao, obj_player.y - _precisaoy, "Instances", obj_pedra)
+				var _precisao = random_range(0, 100)
+				var _precisaoy = random_range(50, 100)
+				instance_create_layer(obj_player.x + _precisao, obj_player.y + _precisaoy, "Instances", obj_pedra_2)
 				estado = parado;
 			}
 			if (_escolha == 2)
 			{
 				var _precisao = random_range(0, 100)
 				var _precisaoy = random_range(80, 120)
-				instance_create_layer(obj_player.x - _precisao, obj_player.y - _precisaoy, "Instances", obj_pedra)
+				instance_create_layer(obj_player.x - _precisao, obj_player.y + _precisaoy, "Instances", obj_pedra_2)
 				estado = parado;
 			}
 		}
