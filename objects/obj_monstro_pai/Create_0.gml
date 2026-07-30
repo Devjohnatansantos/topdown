@@ -58,13 +58,16 @@ parado = function()
 	velh = 0;
 	velv = 0;
 	
+	
 	_dist = 100;
 	if (distance_to_object(obj_player) <= _dist)
 	{
+		
 		estado = perseguir;	
 	}
 	else
 	{
+		som_tocado = false;
 		muda_estado([passeando, parado]);
 	}
 	
