@@ -7,9 +7,9 @@
   "managed":true,
   "name":"obj_masterking",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_monstro_pai","path":"objects/obj_monstro_pai/obj_monstro_pai.yy",},"propertyId":{"name":"Sprite_parado","path":"objects/obj_monstro_pai/obj_monstro_pai.yy",},"resource":{"name":"spr_king_master","path":"sprites/spr_king_master/spr_king_master.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_king_master",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_monstro_pai","path":"objects/obj_monstro_pai/obj_monstro_pai.yy",},"propertyId":{"name":"Sprite_andando","path":"objects/obj_monstro_pai/obj_monstro_pai.yy",},"resource":{"name":"spr_king_master","path":"sprites/spr_king_master/spr_king_master.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_king_master",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_monstro_pai","path":"objects/obj_monstro_pai/obj_monstro_pai.yy",},"propertyId":{"name":"Sprite_atk","path":"objects/obj_monstro_pai/obj_monstro_pai.yy",},"resource":{"name":"spr_king_master","path":"sprites/spr_king_master/spr_king_master.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_king_master",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_monstro_pai","path":"objects/obj_monstro_pai/obj_monstro_pai.yy",},"propertyId":{"name":"Sprite_parado","path":"objects/obj_monstro_pai/obj_monstro_pai.yy",},"resource":{"name":"spr_master_king","path":"sprites/spr_master_king/spr_master_king.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_master_king",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_monstro_pai","path":"objects/obj_monstro_pai/obj_monstro_pai.yy",},"propertyId":{"name":"Sprite_andando","path":"objects/obj_monstro_pai/obj_monstro_pai.yy",},"resource":{"name":"spr_master_king","path":"sprites/spr_master_king/spr_master_king.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_master_king",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_monstro_pai","path":"objects/obj_monstro_pai/obj_monstro_pai.yy",},"propertyId":{"name":"Sprite_atk","path":"objects/obj_monstro_pai/obj_monstro_pai.yy",},"resource":{"name":"spr_master_king","path":"sprites/spr_master_king/spr_master_king.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_master_king",},
   ],
   "parent":{
     "name":"Puzzle_labirinto",
@@ -37,8 +37,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_king_master",
-    "path":"sprites/spr_king_master/spr_king_master.yy",
+    "name":"spr_master_king",
+    "path":"sprites/spr_master_king/spr_master_king.yy",
   },
   "spriteMaskId":null,
   "visible":true,
