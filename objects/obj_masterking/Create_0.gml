@@ -10,6 +10,14 @@ _dist = noone;
 vel = 1;
 timer_pedra = 0;
 
+
+atacando = false;
+fase_ataque = 0;
+timer_ataque = 0;
+tempo_preparacao = room_speed * 2; 
+tempo_ativo = room_speed * 2;      
+quadrado_visivel = false;
+
 muda_estado = function(_estado)
 {
 	tempo_estado--;
@@ -133,24 +141,7 @@ passeando = function()
 	pedra_atk = function()
 	{
 		
-		repeat(3)
-		{
-			var _escolha = irandom_range(1, 2)
-			if (_escolha == 1)
-			{
-				var _precisao = random_range(0, 100)
-				var _precisaoy = random_range(50, 100)
-				instance_create_layer(obj_player.x + _precisao, obj_player.y + _precisaoy, "Instances", obj_pedra_2)
-				estado = parado;
-			}
-			if (_escolha == 2)
-			{
-				var _precisao = random_range(0, 100)
-				var _precisaoy = random_range(50, 100)
-				instance_create_layer(obj_player.x - _precisao, obj_player.y + _precisaoy, "Instances", obj_pedra_2)
-				estado = parado;
-			}
-		}
+		
 	}
 
 
