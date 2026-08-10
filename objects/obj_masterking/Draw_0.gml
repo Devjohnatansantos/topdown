@@ -3,16 +3,14 @@ draw_self();
 
 if (atacando && quadrado_visivel) {
 
-    var tamanho = 150;
-
-    draw_set_alpha(0.5);
     draw_set_color(c_red);
+    draw_set_alpha(0.35);
 
     draw_rectangle(
-        x - tamanho / 2,
-        y - tamanho / 2,
-        x + tamanho / 2,
-        y + tamanho / 2,
+        x - tamanho_ataque / 2,
+        y - tamanho_ataque / 2,
+        x + tamanho_ataque / 2,
+        y + tamanho_ataque / 2,
         false
     );
 

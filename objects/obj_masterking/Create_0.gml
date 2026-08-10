@@ -142,52 +142,87 @@ passeando = function()
 	
 	pedra_atk = function()
 	{
-		if (atacando) {
+		
+if (!atacando) {
 
+    
+    if (keyboard_check_pressed(ord("E"))) {
+
+        atacando = true;
+        fase_ataque = 1;
+        timer_ataque = tempo_preparacao;
+
+        quadrado_visivel = true;
+    }
+}
+
+
+
+
+if (atacando) {
+
+   
 
     if (fase_ataque == 1) {
 
         timer_ataque--;
 
-       
-        quadrado_visivel = ((timer_ataque div 10) mod 2 == 0);
+      
+        quadrado_visivel = ((timer_ataque div 8) mod 2 == 0);
 
-        
+
+      
         if (timer_ataque <= 0) {
+
             fase_ataque = 2;
+
             timer_ataque = tempo_ativo;
+
             quadrado_visivel = true;
         }
     }
 
 
-  
+    
+
     else if (fase_ataque == 2) {
 
         timer_ataque--;
 
-       
+        
         quadrado_visivel = true;
 
-        
-        var tamanho = 150;
+        if (point_in_rectangle(
+            obj_player.x,
+            obj_player.y,
+            x - tamanho_ataque / 2,
+            y - tamanho_ataque / 2,
+            x + tamanho_ataque / 2,
+            y + tamanho_ataque / 2
+        )) {
 
-if (point_in_rectangle(
-    obj_player.x,
-    obj_player.y,
-    x - tamanho / 2,
-    y - tamanho / 2,
-    x + tamanho / 2,
-    y + tamanho / 2
-)) {
+            if (obj_player.invulnerabilidade <= 0) {
 
-    if (obj_player.invulnerabilidade <= 0) {
+                obj_player.hp -= 10;
 
-        obj_player.vida -= 1;
-        obj_player.invulnerabilidade = room_speed * 0.5;
+                obj_player.invulnerabilidade = room_speed * 0.5;
+            }
+        }
+
+
+      
+
+        if (timer_ataque <= 0) {
+
+            atacando = false;
+            fase_ataque = 0;
+
+            
+            quadrado_visivel = false;
+			
+			estado = parado;
+        }
     }
-}
-}
 }
 		
 	}
