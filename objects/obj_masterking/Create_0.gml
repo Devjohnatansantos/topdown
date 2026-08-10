@@ -170,21 +170,24 @@ passeando = function()
         quadrado_visivel = true;
 
         
-        if (place_meeting(x, y, obj_player)) {
+        var tamanho = 150;
 
-           
-            with (obj_player) {
-                obj_player.vida -= 1;
-            }
-        }
+if (point_in_rectangle(
+    obj_player.x,
+    obj_player.y,
+    x - tamanho / 2,
+    y - tamanho / 2,
+    x + tamanho / 2,
+    y + tamanho / 2
+)) {
 
-       
-        if (timer_ataque <= 0) {
-            atacando = false;
-            fase_ataque = 0;
-            quadrado_visivel = false;
-        }
+    if (obj_player.invulnerabilidade <= 0) {
+
+        obj_player.vida -= 1;
+        obj_player.invulnerabilidade = room_speed * 0.5;
     }
+}
+}
 }
 		
 	}
