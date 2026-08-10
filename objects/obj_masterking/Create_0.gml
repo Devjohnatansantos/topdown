@@ -122,12 +122,14 @@ passeando = function()
 		image_speed = 1
 			if (image_index > image_number - 1)
 			{
-				if(timer_pedra <= 0)
-				{
+				
 					estado = pedra_atk;
 					timer_pedra = 180;
+					atacando = true;
+					fase_ataque = 1;
+					 timer_ataque = tempo_preparacao;
 					
-				}
+			}
 				else
 				{
 					
@@ -136,11 +138,54 @@ passeando = function()
 				}
 			}
 		
-	}
+	
 	
 	pedra_atk = function()
 	{
-		
+		if (atacando) {
+
+
+    if (fase_ataque == 1) {
+
+        timer_ataque--;
+
+       
+        quadrado_visivel = ((timer_ataque div 10) mod 2 == 0);
+
+        
+        if (timer_ataque <= 0) {
+            fase_ataque = 2;
+            timer_ataque = tempo_ativo;
+            quadrado_visivel = true;
+        }
+    }
+
+
+  
+    else if (fase_ataque == 2) {
+
+        timer_ataque--;
+
+       
+        quadrado_visivel = true;
+
+        
+        if (place_meeting(x, y, obj_player)) {
+
+           
+            with (obj_player) {
+                obj_player.vida -= 1;
+            }
+        }
+
+       
+        if (timer_ataque <= 0) {
+            atacando = false;
+            fase_ataque = 0;
+            quadrado_visivel = false;
+        }
+    }
+}
 		
 	}
 
