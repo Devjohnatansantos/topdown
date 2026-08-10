@@ -11,12 +11,7 @@ vel = 1;
 timer_pedra = 0;
 
 
-atacando = false;
-fase_ataque = 0;
-timer_ataque = 0;
-tempo_preparacao = room_speed * 2; 
-tempo_ativo = room_speed * 2;      
-quadrado_visivel = false;
+
 
 muda_estado = function(_estado)
 {
@@ -123,11 +118,7 @@ passeando = function()
 			if (image_index > image_number - 1)
 			{
 				
-					estado = pedra_atk;
-					timer_pedra = 180;
-					atacando = true;
-					fase_ataque = 1;
-					 timer_ataque = tempo_preparacao;
+	
 					
 			}
 				else
@@ -140,55 +131,7 @@ passeando = function()
 		
 	
 	
-	pedra_atk = function()
-	{
-		if (atacando) {
 
-
-    if (fase_ataque == 1) {
-
-        timer_ataque--;
-
-       
-        quadrado_visivel = ((timer_ataque div 10) mod 2 == 0);
-
-        
-        if (timer_ataque <= 0) {
-            fase_ataque = 2;
-            timer_ataque = tempo_ativo;
-            quadrado_visivel = true;
-        }
-    }
-
-
-  
-    else if (fase_ataque == 2) {
-
-        timer_ataque--;
-
-       
-        quadrado_visivel = true;
-
-        
-        var tamanho = 150;
-
-if (point_in_rectangle(
-    obj_player.x,
-    obj_player.y,
-    x - tamanho / 2,
-    y - tamanho / 2,
-    x + tamanho / 2,
-    y + tamanho / 2
-)) {
-
-    if (obj_player.invulnerabilidade <= 0) {
-
-        obj_player.hp -= 10;
-        obj_player.invulnerabilidade = room_speed * 0.5;
-    }
-}
-}
-		
 	}
 
 

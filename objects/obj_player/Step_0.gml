@@ -90,10 +90,6 @@ if (estrelas >= 3)
 	room_goto_next();
 }
 
-if (invulnerabilidade > 0) {
-    invulnerabilidade--;
-}
-
 
 
 
