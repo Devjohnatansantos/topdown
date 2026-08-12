@@ -1,5 +1,5 @@
 estado = noone;
-tempo_estado = room_speed * 10;
+tempo_estado = room_speed * 5;
 timer_estado = 0;
 destino_x = x;
 destino_y = y;
@@ -9,7 +9,7 @@ som_tocado = false;
 _dist = noone;
 vel = 1;
 timer_pedra = 0;
-
+timer_atk = 0;
 
 
 
@@ -22,7 +22,7 @@ muda_estado = function(_estado)
 	if (timer_estado == tempo_estado or tempo_estado <= 0)
 	{
 		estado = _estado[irandom(array_length(_estado)-1)];	
-		tempo_estado = room_speed * 10;
+		tempo_estado = room_speed * 5;
 	}
 }
 
@@ -123,8 +123,11 @@ passeando = function()
 			}
 				else
 				{
-					
-					estado = parado;
+					if(timer_atk <= 0)
+					{
+						estado = perseguir;
+						timer_atk = 180;
+					}
 					
 				}
 			}
