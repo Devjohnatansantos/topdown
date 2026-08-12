@@ -111,28 +111,59 @@ passeando = function()
 	
 	atk = function()
 	{
-		velh = 0;
-		velv = 0;
+		
 		sprite_index = Sprite_atk;
 		image_speed = 1
+		var _dir = point_direction(x, y, obj_player.x, obj_player.y)
+	
+		velh = lengthdir_x(vel, _dir);
+		velv = lengthdir_y(vel, _dir);
+		image_xscale = sign(velh);
+		
+		if (distance_to_object(obj_player) > _dist)
+	{
+		estado = parado;
+	}
 			if (image_index > image_number - 1)
 			{
-				
-	
-					
-			}
-				else
+				if (timer_atk <= 0)
 				{
-					if(timer_atk <= 0)
-					{
-						estado = perseguir;
-						timer_atk = 180;
-					}
-					
+				estado = atk1;
 				}
+	
+			}
+			
 			}
 		
+	atk1 = function()
+	{
+		
+		var _dir = point_direction(x, y, obj_player.x, obj_player.y)
 	
+		velh = lengthdir_x(vel, _dir);
+		velv = lengthdir_y(vel, _dir);
+		image_xscale = sign(velh);
+		for (var i = 0; i < 8; i++)
+		{
+			if (timer_atk <= 0)
+			{
+		    var angulo = i * 45;
+    
+		    var proj = instance_create_layer(x, y, "Instances", obj_rumble);
+    
+		    proj.direction = angulo;
+		    proj.speed = 3;
+			proj.image_angle = proj.direction;
+			}
+			
+			if (i >= 7)
+			{
+			timer_atk = 240;
+			estado = parado;
+			}
+		}
+		
+	}
 	
 
 	
