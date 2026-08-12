@@ -132,7 +132,7 @@ passeando = function()
 	
 	
 
-	}
+	
 
 
 estado = parado;
