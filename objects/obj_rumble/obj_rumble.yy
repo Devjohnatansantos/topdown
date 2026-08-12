@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_square",
+  "%Name":"obj_rumble",
   "eventList":[],
   "managed":true,
-  "name":"obj_square",
+  "name":"obj_rumble",
   "overriddenProperties":[],
   "parent":{
     "name":"Puzzle_labirinto",
