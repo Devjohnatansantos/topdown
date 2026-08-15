@@ -3,3 +3,4 @@ var forca = 8;
 
 knockback_x = lengthdir_x(forca, dir);
 knockback_y = lengthdir_y(forca, dir);
+
