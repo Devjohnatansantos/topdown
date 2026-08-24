@@ -128,6 +128,7 @@
     {"id":{"name":"spr_rocha_destroy","path":"sprites/spr_rocha_destroy/spr_rocha_destroy.yy",},},
     {"id":{"name":"spr_room","path":"sprites/spr_room/spr_room.yy",},},
     {"id":{"name":"spr_rumble","path":"sprites/spr_rumble/spr_rumble.yy",},},
+    {"id":{"name":"spr_tapete","path":"sprites/spr_tapete/spr_tapete.yy",},},
     {"id":{"name":"spr_tileset_chao","path":"sprites/spr_tileset_chao/spr_tileset_chao.yy",},},
     {"id":{"name":"Spr_tilexadrez","path":"sprites/Spr_tilexadrez/Spr_tilexadrez.yy",},},
     {"id":{"name":"Sprite10","path":"sprites/Sprite10/Sprite10.yy",},},
