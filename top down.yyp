@@ -123,6 +123,7 @@
     {"id":{"name":"spr_player1_mente","path":"sprites/spr_player1_mente/spr_player1_mente.yy",},},
     {"id":{"name":"spr_player1","path":"sprites/spr_player1/spr_player1.yy",},},
     {"id":{"name":"spr_porta","path":"sprites/spr_porta/spr_porta.yy",},},
+    {"id":{"name":"spr_porta2","path":"sprites/spr_porta2/spr_porta2.yy",},},
     {"id":{"name":"spr_prato","path":"sprites/spr_prato/spr_prato.yy",},},
     {"id":{"name":"spr_quadro","path":"sprites/spr_quadro/spr_quadro.yy",},},
     {"id":{"name":"spr_rocha_destroy","path":"sprites/spr_rocha_destroy/spr_rocha_destroy.yy",},},
