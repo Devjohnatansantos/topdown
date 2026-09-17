@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":120.42667,
+  "duration":29.559002,
   "exportDir":"",
   "name":"Som2",
   "parent":{
@@ -22,5 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"Som2.mp3",
-  "volume":0.15,
+  "volume":0.7,
 }
