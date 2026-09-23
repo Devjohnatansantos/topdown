@@ -44,9 +44,9 @@ function scr_textos(){
 		texto[0] = "Eaí como foi na reunião?"
 		texto[1] = "Deixa eu ver seu boletim."
 		texto[2] = "MEU DEUS VOCÊ FOI MUITO MAL!!!"
-		texto[3] = "Como pussera você tirar notas tão baixas???"
+		texto[3] = "Como pode você tirar notas tão baixas???"
 		texto[4] = "Olha que na minha época não existiam esses facilitadores de hoje em dia."
-		texto[5] = "Hoje em dia os professores deixam usar calculadoras, provas com consultas ao caderno, e explicam se você perguntar."
+		texto[5] = "Atualmente os professores deixam usar calculadoras, provas com consultas ao caderno, e explicam se você perguntar."
 		texto[6] = "Você deveria ser melhor igual ao seu primo!"
 		texto[7] = "Estuda na mesma escola e nunca tira notas baixas, você precisa dedicar-se."
 		global.cutscene = false;
