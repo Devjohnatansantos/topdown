@@ -61,8 +61,11 @@ function scr_textos(){
 				break;
 				
 				case "Vilain":
-				texto[0] = 
-				texto[1] =
+				texto[0] = "Eai Lucky, tá bem?"
+				texto[1] = "Como assim tu tirou 2 na prova?"
+				texto[2] = "Tu realmente foi muito mal!"
+				texto[3] = "Muito mal mesmo!"
+				texto[4] = "Eu nem estudei e tirei 10."
 				
 				
 		break;
