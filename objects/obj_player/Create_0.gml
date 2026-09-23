@@ -23,10 +23,10 @@ distance = 50;
 
 movimento =function()
 {
-var _up = keyboard_check(ord("W")),
-_down = keyboard_check(ord("S")),
-_right = keyboard_check(ord("D")),
-_left = keyboard_check(ord("A"));
+var _up = keyboard_check(ord("W")) or keyboard_check(vk_up),
+_down = keyboard_check(ord("S")) or keyboard_check(vk_down),
+_right = keyboard_check(ord("D")) or keyboard_check(vk_right),
+_left = keyboard_check(ord("A")) or keyboard_check(vk_left);
 _space = keyboard_check(vk_space);
 
 
