@@ -59,6 +59,13 @@ function scr_textos(){
 				texto[1] = "Durante a aula na escola"
 				
 				break;
+				
+				case "Vilain":
+				texto[0] = 
+				texto[1] =
+				
+				
+		break;
 		
 		
 	}

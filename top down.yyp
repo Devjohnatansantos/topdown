@@ -77,6 +77,7 @@
     {"id":{"name":"obj_room","path":"objects/obj_room/obj_room.yy",},},
     {"id":{"name":"obj_rumble","path":"objects/obj_rumble/obj_rumble.yy",},},
     {"id":{"name":"Obj_screenshake","path":"objects/Obj_screenshake/Obj_screenshake.yy",},},
+    {"id":{"name":"obj_vilain","path":"objects/obj_vilain/obj_vilain.yy",},},
     {"id":{"name":"obj_zoom_out","path":"objects/obj_zoom_out/obj_zoom_out.yy",},},
     {"id":{"name":"obj_zoom","path":"objects/obj_zoom/obj_zoom.yy",},},
     {"id":{"name":"Tab","path":"objects/Tab/Tab.yy",},},
